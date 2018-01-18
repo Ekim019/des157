@@ -1,16 +1,12 @@
 /* all element to be work equal */
-
 /* Kim,Eunice-style.css (main-stylesheet)
 des157 */
-
 * {
   box-sizing: border-box;
   color: hsl(0, 100%, 100%);
-  /* max-width: 1366px;
-  max-height: 788px; */
+  max-width: 1366px;
+  max-height: 788px;
   margin: auto;
-  margin-left: 50%;
-  margin-right: 50%;
 }
 
 body {
@@ -26,25 +22,15 @@ h1 {
   width: auto;
   height: auto;
   margin-top: 20px;
-  margin-left: 300px;
+  margin-left: 20px;
   padding: 10px;
 }
 
 .logo {
   float: right;
   clear: right;
-  margin-bottom: 2px;
-  margin-right: 300px;
-}
-
-h3 {
-  font-family: 'Atma';
-  font-size: 25px;
-  width: auto;
-  height: auto;
-  margin-bottom: 13px;
-  margin-left: 300px;
-  padding: 10px;
+  margin: 15px;
+  padding: 0 5px;
 }
 
 /* banner(javascript) */
@@ -67,18 +53,18 @@ h2 {
 #column1 {
   float: left;
   clear: left;
-  padding: 80px;
-  margin-top: 50px;
-  margin-left: 300px;
+  padding: 150px;
+  margin: 50px;
   border: 2px solid white;
 }
 
 #column2 {
   float: right;
   clear: right;
-  padding: 80px;
+  padding: 150px;
   margin-top: 50px;
-  margin-right: 300px;
+  margin-left: 30px;
+  margin-right: 50px;
   border: 2px solid white;
   overflow: auto;
 }
@@ -136,10 +122,8 @@ footer {
   clear: both;
   width: auto;
   height: auto;
-  padding: 0 500px;
+  padding: 0 450px;
   margin: 0 60px;
-  position: fixed;
-  bottom: 0;
 }
 
 /* icon of image :html,css,github */
