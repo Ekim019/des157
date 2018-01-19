@@ -8,14 +8,16 @@ des157 */
   color: hsl(0, 100%, 100%);
   /* max-width: 1366px;
   max-height: 788px; */
-  margin: auto;
-  margin-left: 50%;
-  margin-right: 50%;
 }
 
 body {
   background-color: hsl(0, 0%, 1%);
-  padding: 0px 25px;
+}
+
+div#container {
+  max-width: 1000px;
+  margin: auto;
+  height:100%;
 }
 
 /*beign with h1 section */
@@ -23,8 +25,6 @@ body {
 h1 {
   font-family: 'Atma';
   font-size: 32px;
-  width: auto;
-  height: auto;
   margin-top: 20px;
   margin-left: 300px;
   padding: 10px;
@@ -32,7 +32,6 @@ h1 {
 
 .logo {
   float: right;
-  clear: right;
   margin-bottom: 2px;
   margin-right: 300px;
 }
@@ -40,8 +39,6 @@ h1 {
 h3 {
   font-family: 'Atma';
   font-size: 25px;
-  width: auto;
-  height: auto;
   margin-bottom: 13px;
   margin-left: 300px;
   padding: 10px;
@@ -50,8 +47,8 @@ h3 {
 /* banner(javascript) */
 
 #mySketch {
-  margin: auto;
   width: 800px;
+  margin: auto;
 }
 
 /*begin with the h2 with studio and project section of the page  */
@@ -60,34 +57,31 @@ h2 {
   font-family: 'Oleo Script Swash Caps';
   font-size: 50px;
   color: hsl(0, 100%, 100%);
-  width: auto;
-  height: auto;
+}
+
+#mainNav {
+
 }
 
 #column1 {
   float: left;
-  clear: left;
   padding: 80px;
   margin-top: 50px;
-  margin-left: 300px;
   border: 2px solid white;
 }
 
 #column2 {
   float: right;
-  clear: right;
   padding: 80px;
   margin-top: 50px;
-  margin-right: 300px;
   border: 2px solid white;
-  overflow: auto;
 }
 
 /*link for studio and project li */
 
-ul, ol, li {
+#col1 li, #col li {
   color: white;
-  font-family: 'Atma';
+  font-family: '2Atma';
   font-size: 16px;
   margin-top: 7px;
 }
@@ -122,24 +116,15 @@ a:active {
   color: hsl(342, 70%, 81%);
 }
 
-.div {
-  width: 300px;
-  height: 100px;
-  border: 1px solid white;
-}
-
 /*footer for icons:email,html,css,github */
 
 footer {
-  font-family: 'Atma';
-  float: none;
-  clear: both;
-  width: auto;
-  height: auto;
-  padding: 0 500px;
-  margin: 0 60px;
   position: fixed;
   bottom: 0;
+  clear: both;
+  width:100%;
+  font-family: 'Atma';
+  text-align:center;
 }
 
 /* icon of image :html,css,github */
@@ -148,5 +133,9 @@ footer {
   list-style-type: none;
   display: inline-block;
   margin-left: 10px;
-  margin-right: auto;
+}
+
+footer li {
+  display: inline;
+  list-style: none;
 }
