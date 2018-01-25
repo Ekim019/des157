@@ -1,11 +1,16 @@
+* {
+  box-sizing: border-box;
+  color: hsl(0, 100%, 100%);
+}
+body{
+  max-width: 1000px;
+  margin: auto;
+  height:100%;
+}
+
 h1 {
   font-family: 'Atma';
   font-size: 30px;
-  /* width: auto;
-  height: auto;
-  margin-top: 20px;
-  margin-left: 20px;
-  padding: 10px; */
 }
  h2{
    font-family: 'Atma';
@@ -20,6 +25,9 @@ text-indent:50px;
 }
 article{
   display: block;
+}
+figure{
+  text-align: center;
 }
 
 /*footer for icons:email,html,css,github */
