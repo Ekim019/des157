@@ -18,19 +18,18 @@ p {
 /*footer for icons:email,html,css,github */
 
 footer {
-  font-family: 'Atma';
-  float: none;
+  position: fixed;
+  bottom: 0;
   clear: both;
-  width: auto;
-  padding: 0 450px;
-  margin: 0 60px;
+  width:100%;
+  font-family: 'Atma';
+  padding-right: 35%;
+  text-align:center;
 }
-
 /* icon of image :html,css,github */
 
 .icon {
   list-style-type: none;
   display: inline-block;
   margin-left: 10px;
-  margin-right: auto;
 }
