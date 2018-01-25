@@ -7,7 +7,7 @@ body {
 
   max-width: 1000px;
   margin: auto;
-  height: 100%;
+width: 70%;
 }
 
 h1 {
@@ -24,7 +24,7 @@ p {
   font-family: 'Atma';
   font-size: 12px;
   text-indent: 50px;
-  width: 70%;
+
   text-align: center;
 }
 
