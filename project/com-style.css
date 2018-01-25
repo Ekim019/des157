@@ -1,0 +1,36 @@
+h1 {
+  font-family: 'Atma';
+  font-size: 30px;
+  /* width: auto;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px; */
+}
+
+p {
+  font-family: 'Atma';
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/*footer for icons:email,html,css,github */
+
+footer {
+  font-family: 'Atma';
+  float: none;
+  clear: both;
+  width: auto;
+  padding: 0 450px;
+  margin: 0 60px;
+}
+
+/* icon of image :html,css,github */
+
+.icon {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: auto;
+}
