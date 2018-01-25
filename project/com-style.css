@@ -14,22 +14,8 @@ p {
   margin-top: 5px;
   text-align: center;
 }
+article{
+  display: block;
+}
 
 /*footer for icons:email,html,css,github */
-
-footer {
-  position: fixed;
-  bottom: 0;
-  clear: both;
-  width:100%;
-  font-family: 'Atma';
-  padding-right: 35%;
-  text-align:center;
-}
-/* icon of image :html,css,github */
-
-.icon {
-  list-style-type: none;
-  display: inline-block;
-  margin-left: 10px;
-}
