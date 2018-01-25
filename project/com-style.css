@@ -1,41 +1,48 @@
-* {
+/* {
   box-sizing: border-box;
   color: hsl(0, 100%, 100%);
-}
+}*/
 
-body {
-
-  max-width: 1000px;
+#container{
+  width: 80%;
   margin: auto;
-width: 70%;
+}
+body{
+
+    background-color: hsl(0, 0%, 1%);
+    color: hsl(0, 100%, 100%);
 }
 
 h1 {
   font-family: 'Atma';
-  font-size: 30px;
+  font-size: 35pt;
+  text-align: center;
 }
 
 h2 {
   font-family: 'Atma';
-  font-size: 20px;
+  font-size: 20pt;
+  text-align: center;
 }
 
 p {
   font-family: 'Atma';
-  font-size: 12px;
+  font-size:12pt;
+line-height: 150%;
   text-indent: 50px;
-
-  text-align: center;
 }
 
-article {
-  display: block;
-  text-align: center;
+a:visited {
+  color: hsl(347, 87%, 92%);
+}
+
+a:hover {
+  color: hsl(172, 90%, 81%);
 }
 
 figure {
+  font-size: 13pt;
   text-align: center;
-  font-size: 13px;
 }
 
 /*footer for icons:email,html,css,github */
