@@ -1,0 +1,23 @@
+/* global variation */
+
+body {
+  background-image: url(../images/des157.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 120%;
+}
+
+/* input type setting for labeling, submit, and reset */
+
+form {
+  text-align: right;
+  padding-right: 29%;
+  padding-top: 20%;
+}
+
+/* footer for icons */
+
+footer {
+  position: fixed;
+  text-align: center;
+}
