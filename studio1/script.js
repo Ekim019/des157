@@ -50,6 +50,7 @@ image.setAttribute("alt","hannah")
   " says,<em>'Hello! trick....A....Treat....BOO!!'</em>"+" I pass out in front of the door.I wake up on mybed. I realize it is Halloween and "+
   userName+" cameback that day.";
   // return false;
+    myMsg.setAttribute('class','hide');
 }
   return false;
 
