@@ -5,43 +5,53 @@
 <head>
   <meta charset="utf-8">
   <title>studio1:Madlibs</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
   <link href="../studio1/styles.css" rel="stylesheet">
 </head>
 <!--body for form and input setting for labeling the "madlibs"  -->
-<header>
-  <h1>MADLIBS</h1>
-</header>
-<article>
+
+<body>
+  <header>
+    <h1>MADLIBS</h1>
+  </header>
+
+  <article>
+    <form name="f">
+      <div>
+        <label for="userName">Name</label>
+        <input type="text" id="userName" required>
+      </div>
+      <div>
+        <label for="userAdj">Adjectives</label>
+        <input type="text" id="userAdj" required>
+      </div>
+      <div>
+        <label for="userNoun">Noun</label>
+        <input type="text" id="userNoun" required>
+      </div>
+      <div>
+        <label for="userBff">BestFriend name</label>
+        <input type="text" id="userBff" required>
+      </div>
+      <div>
+        <label for="userColor">Color</label>
+        <input type="text" id="userColor" required />
+      </div>
+      <div>
+        <input type="reset" value="reset" />
+        <input type="submit" value="submit" />
+      </div>
+    </form>
+
+  </article>
+
+  <section id="results" class="hide">
+
+    <p id="myMsg"></p>
+  <img src="../images/vampire.png" width="300" height="300"id="image" alt="vampire"/>
+  </section>
 
 
-  <form name="f">
-    <div>
-      <label for="userName">Name</label>
-      <input type="text" name="userName" required>
-    </div>
-    <div>
-      <label for="userAdj">Adjectives</label>
-      <input type="text" name="userAdj" required>
-    </div>
-    <div>
-      <label for="userNoun">Noun</label>
-      <input type="text" name="userNoun" required>
-    </div>
-    <div>
-      <label for="userBff">BestFriend name</label>
-      <input type="text" name="userBff" required>
-    </div>
-    <div>
-      <label for="userColor">Color</label>
-      <input type="text" name="userColor" required />
-    </div>
-    <div>
-      <input type="reset" value="reset" />
-      <input type="submit" value="submit" />
-    </div>
-  </form>
-  <!-- footer for the icons and go back the main page setting link/ with java script -->
-  <a href="../index.html">Go Back to main page</a>
   <footer>
     <nav>
       <ul>
@@ -54,11 +64,9 @@
         <li><a href="#"><img class="icon" src="../images/github.png" width="32" height="32" alt="github"></a></li>
       </ul>
     </nav>
+    <a href="../index.html">Go Back to main page</a>
   </footer>
-</article>
-<section id="results">
-  <p id="myMsg"></p>
-</section>
-<script src="script.js"></script>
+  <script src="script.js"></script>
+</body>
 
 </html>

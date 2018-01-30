@@ -29,12 +29,14 @@ position: relative;
 min-width: 700px;
 top:-2px;
 }
+/*form input elemnts to postition  */
 label {
   text-align: right;
-  width:55%;
+  width:60%;
   display:inline-block;
   color:brown;
   font-size: 20pt;
+
 }
 input[type="text"]{
   width: 25%;
@@ -46,10 +48,12 @@ input[type="text"]{
   color:white;
   font-weight: bold;
   font-size: 19pt;
+
 }
+/*rest and submit bottom float  */
 div:last-child{
   text-align: right;
-padding-right: 20%;
+padding-right: 10%;
 
 }
 input[type="reset"],
@@ -64,11 +68,30 @@ input[type="submit"]{
   background-color: red;
   color: black;
 }
-section p{
-width: 80%;
-min-width: 700px;
-margin-left: 12px;
-padding:24px;
+/*myMsg for results paragraph  */
+section p {
+width: 30%;
+margin-left:10px;
+bottom:300px;
+text-align: left;
+padding:30px;
+background-color: rgb(92, 0, 0);
+color:white;
+position: fixed;
+}
+
+section #image{
+width: 22%;
+margin-left:60px;
+bottom:5px;
+position: fixed;
+background-color: hsla(360, 100%, 100%, 0.42);
+}
+.show{
+  display: block;
+}
+.hide{
+  display:none;
 }
 
 
