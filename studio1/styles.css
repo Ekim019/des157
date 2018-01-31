@@ -87,6 +87,7 @@ section p {
   background-color: rgb(92, 0, 0);
   color: white;
   position: fixed;
+  font-size: 15px;
 }
 
 /* sectio image to set up the position */
