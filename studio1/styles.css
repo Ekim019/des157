@@ -37,10 +37,10 @@ article {
 
 label {
   text-align: right;
-  width: 30%;
+  width: 55%;
   display: inline-block;
   color: brown;
-  font-size: 20pt;
+  font-size: 17pt;
 }
 
 input[type="text"] {
