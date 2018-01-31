@@ -44,7 +44,8 @@ label {
 }
 
 input[type="text"] {
-  width: 15%;
+  width: 25%;
+  height:15%;
   padding: 1%;
   border: none;
   border-radius: 3px;
