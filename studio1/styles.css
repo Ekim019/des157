@@ -37,14 +37,14 @@ article {
 
 label {
   text-align: right;
-  width: 40%;
+  width: 35%;
   display: inline-block;
   color: brown;
   font-size: 17pt;
 }
 
 input[type="text"] {
-  width: 25%;
+  width: 15%;
   padding: 1%;
   border: none;
   border-radius: 3px;
