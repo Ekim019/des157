@@ -78,10 +78,9 @@ input[type="reset"], input[type="submit"] {
 
 section p {
   width: 30%;
-  height: 45%;
+  height: 40%;
   margin-left: 10px;
-  font-size:65pt;
-  top: 400px;
+  top: 1000px;
   text-align: left;
   padding: 30px;
   background-color: rgb(92, 0, 0);
@@ -92,8 +91,7 @@ section p {
 /* sectio image to set up the position */
 
 section #image {
-  width: 30%;
-  height: 40%;
+  width: 22%;
   margin-left: 60px;
   bottom: 5px;
   position: fixed;
@@ -128,7 +126,6 @@ footer {
   width: 100%;
   padding-right: 60%;
   text-align: center;
-  font-size: 50pt;
 }
 
 footer li {
