@@ -45,7 +45,7 @@ label {
 
 input[type="text"] {
   width: 25%;
-  height:15%;
+  height:10%;
   padding: 1%;
   border: none;
   border-radius: 3px;
@@ -53,7 +53,7 @@ input[type="text"] {
   background-color: orange;
   color: white;
   font-weight: bold;
-  font-size: 90pt;
+  font-size: 20pt;
 }
 
 /*rest and submit bottom float  */
