@@ -70,7 +70,7 @@ input[type="reset"], input[type="submit"] {
   border-radius: 3px;
   border-bottom: 4px brown solid;
   font-weight: bold;
-  font-size: 50pt;
+  font-size: 20pt;
   background-color: red;
   color: black;
 }
