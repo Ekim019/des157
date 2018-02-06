@@ -1,0 +1,264 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+}
+h1{
+    /* font-family: 'Ranchers', cursive; */
+    font-family: 'Spirax', cursive;
+font-size: 35pt;
+  text-align: center;
+  background-color: antiquewhite;
+}
+ h2{
+    text-align: center;
+font-size: 25pt;
+font-family: 'Nanum Brush Script', cursive;
+}
+
+p{
+    text-align: left;
+    font-size: 17pt;
+    font-family: 'Nanum Brush Script', cursive;
+
+}
+footer p{
+position: fixed;
+bottom: 10px;
+padding: 10px;
+    font-size: 15pt;
+    font-family: 'Special Elite', cursive;
+}
+#eunice{
+    left: 100px;
+   text-align: center;
+   padding: 30px;
+
+}
+
+#hello{
+   position: absolute;
+   width: 35%;
+   height: 15%;
+   top:25%;
+   left: 58%;
+ 
+   
+}
+/* waterbottle */
+#overlay1{
+position: absolute;
+background-color: rgba(0,0,0,.70);
+color:white;
+display:none;
+height: 80%;
+width: 80%;
+top: 50px;
+left: 50px;
+
+}
+#overlay1 img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:tanslate(-10%,-10%);
+}
+#water{
+    position: absolute;
+    top:390px;
+    left:165px;
+    cursor: pointer;
+}
+/* ipad */
+#overlay2{
+    position: absolute;
+background-color: rgba(0,0,0,.70);
+color:white;
+display:none;
+height: 80%;
+width: 80%;
+top: 50px;
+left: 50px;
+
+}
+
+#overlay2 img{
+    position: absolute;
+    height: 20%;
+    width: 50%;
+    top:50%;
+    left:50%;
+    transform:tanslate(-50%,-50%);
+}
+
+#ipad{
+    position: absolute;
+    top:390px;
+    left:100px;
+   
+} 
+/* pecilcase */
+#overlay3{
+    position: absolute;
+background-color: rgba(0,0,0,.70);
+color:white;
+display:none;
+height: 80%;
+width: 80%;
+top: 50px;
+left: 50px;
+
+}
+
+#overlay3 img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:tanslate(-10%,-10%);
+}
+#pencilcase{
+    position: absolute;
+    top:385px;
+    left:220px;
+}
+
+#close{
+    position: absolute;
+    top:10px;
+    right:10px;
+
+}
+
+   #backpack{
+       position: fixed;
+       top:350px;
+       left: 50px;
+   }
+
+
+
+@media only screen and (min-width: 768px) {
+    p{
+        text-align: left;
+        font-size: 25pt;
+        font-family: 'Nanum Brush Script', cursive;
+    
+    }
+
+    /* waterbottle computerscreen */
+#overlay1{
+    position: absolute;
+    background-color: rgba(0,0,0,.70);
+    color:white;
+    display:none;
+    height: 80%;
+    width: 80%;
+    top: 50px;
+    left: 50px;
+    
+    }
+    #overlay1 img{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:tanslate(-10%,-10%);
+    }
+    #water{
+        position:fixed;
+        top:53%;
+        left:48%;
+        width:8%;
+        height: 5%;
+        cursor: pointer;
+    }
+    /* ipad computerscreen */
+    #overlay2{
+        position: absolute;
+    background-color: rgba(0,0,0,.70);
+    color:papayawhip;
+    display:none;
+    height: 80%;
+    width: 80%;
+    top: 50px;
+    left: 50px;
+    
+    }
+    #overlay2 img{
+        position: absolute;
+        height: 25%;
+        width: 50%;
+        top:50%;
+        left:50%;
+        transform:tanslate(-50%,-50%);
+    }
+    
+    #ipad{
+        position: absolute;
+        top:50%;
+        left:40%;
+        width: 10%;
+        height: 8%;
+       
+    } 
+    /* pecilcase computerscreen */
+#overlay3{
+    position: absolute;
+background-color: rgba(0,0,0,.70);
+color:papayawhip;
+display:none;
+height: 80%;
+width: 80%;
+top: 50px;
+left: 50px;
+
+}
+
+#overlay3 img{
+    position: absolute;
+    width:50%;
+    height: 25%;
+    top:50%;
+    left:50%;
+    transform:tanslate(-10%,-10%);
+}
+#pencilcase{
+    position: absolute;
+    top:49%;
+    left:54%;
+    width:100%;
+   
+}
+#eunice{
+margin-left: 40%;
+   text-align: center;
+   padding: 30px;
+
+}
+#hello{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    top:15%;
+    left: 55%;
+  
+    
+ }
+#backpack{
+    width: 35%;
+    height: 50%;
+    margin-left: 30%;
+    text-align: center;
+    padding: 30px;
+}
+/* footer p{
+position: fixed;
+bottom: 10px;
+padding: 10px;
+    font-size: 15pt;
+    font-family: 'Special Elite', cursive;
+} */
+
+ }
+ 
