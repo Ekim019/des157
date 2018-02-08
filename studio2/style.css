@@ -1,275 +1,294 @@
+* {
+  box-sizing: border-box;
+}
 
-*{
-    box-sizing: border-box;
+body {
+  background-color: pink;
 }
-body{
-    background-color: pink;
-}
-h1{
-    /* font-family: 'Ranchers', cursive; */
-    font-family: 'Spirax', cursive;
-font-size: 35pt;
+
+h1 {
+
+  font-family: 'Spirax', cursive;
+  font-size: 35pt;
   text-align: center;
   background-color: antiquewhite;
 }
- h2{
-    text-align: center;
-font-size: 25pt;
-font-family: 'Nanum Brush Script', cursive;
+
+h2 {
+  text-align: center;
+  font-size: 35pt;
+  font-family: 'Nanum Brush Script', cursive;
+}
+/*  hide the h3 not necessary just for the html validation. */
+h3{
+  display: none;
 }
 
-p{
-    text-align: left;
-    font-size: 17pt;
-    font-family: 'Nanum Brush Script', cursive;
-
+p {
+  font-size: 25pt;
+  font-family: 'Nanum Brush Script', cursive;
 }
 
-#eunice{
-    left: 100px;
-   text-align: center;
-   padding: 30px;
-
+.in {
+  padding: 12px;
+  font-size: 17pt;
+  font-family: 'Special Elite', cursive;
 }
 
-#hello{
-   position: absolute;
-   width: 35%;
-   height: 15%;
-   top:25%;
-   left: 58%;
- 
-   
+
+/* ipad view */
+
+#eunice {
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  /* padding: 20px; */
 }
+
+#hello {
+  position: absolute;
+  width: 25%;
+  height: 15%;
+  top: 15%;
+  left: 56%;
+}
+
 /* waterbottle */
-#overlay1{
-position: absolute;
-background-color: rgba(0,0,0,.70);
-color:white;
-display:none;
-height: 80%;
-width: 80%;
-top: 50px;
-left: 50px;
 
+#overlay1 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, .70);
+  color: white;
+  display: none;
+  height: 80%;
+  width: 80%;
+  top: 50px;
+  left: 50px;
 }
-#overlay1 img{
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform:tanslate(-10%,-10%);
+
+#overlay1 img {
+  position: absolute;
+  width: 25%;
+  height: 40%;
+  top: 50%;
+  left: 35%;
 }
-#water{
-    position: absolute;
-    top:390px;
-    left:165px;
-    cursor: pointer;
+
+#water {
+  position: absolute;
+  width: 18%;
+  height: 10%;
+  top: 54%;
+  left: 42%;
 }
+
 /* ipad */
-#overlay2{
-    position: absolute;
-background-color: rgba(0,0,0,.70);
-color:white;
-display:none;
-height: 80%;
-width: 80%;
-top: 50px;
-left: 50px;
 
+#overlay2 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, .70);
+  color: white;
+  display: none;
+  height: 80%;
+  width: 80%;
+  top: 50px;
+  left: 50px;
 }
 
-#overlay2 img{
-    position: absolute;
-    height: 20%;
-    width: 50%;
-    top:50%;
-    left:50%;
-    transform:tanslate(-50%,-50%);
+#overlay2 img {
+  position: absolute;
+  height: 20%;
+  width: 50%;
+  top: 50%;
+  left: 28%;
 }
 
-#ipad{
-    position: absolute;
-    top:390px;
-    left:100px;
-   
-} 
+#ipad {
+  position: absolute;
+  width: 20%;
+  height: 15%;
+  top: 49%;
+  left: 25%;
+}
+
 /* pecilcase */
-#overlay3{
+
+#overlay3 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, .70);
+  color: white;
+  display: none;
+  height: 80%;
+  width: 80%;
+  top: 50px;
+  left: 50px;
+}
+
+#overlay3 img {
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  top: 50%;
+  left: 30%;
+  /* transform:tanslate(-50%,-50%); */
+}
+
+#pencilcase {
+  position: absolute;
+  width: 20%;
+  height: 10%;
+  top: 54%;
+  left: 55%;
+}
+
+#close, #close2, #close3 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#backpack {
+  position: absolute;
+  width: 70%;
+  height: 50%;
+  top: 43%;
+  left: 15%;
+}
+
+footer {
+  bottom: 5px;
+  position: fixed;
+}
+
+footer li {
+  bottom: 5px;
+  display: inline;
+  list-style: none;
+  text-align: center;
+}
+
+footer p {
+  position: fixed;
+  bottom: 10px;
+  padding: 10px;
+  font-size: 15pt;
+  font-family: 'Special Elite', cursive;
+}
+
+@media only screen and (min-width: 769px) {
+/* inside the image paragraph */
+#overlay1 p, #overlay2 p, #overlay3  p {
+  padding: 10px;
+  margin: auto;
+    font-size: 25pt;
+    font-family: 'Nanum Brush Script', cursive;
+    color:	rgb(229, 255, 255);
+
+  }
+  /* waterbottle computerscreen */
+  #overlay1 {
     position: absolute;
-background-color: rgba(0,0,0,.70);
-color:white;
-display:none;
-height: 80%;
-width: 80%;
-top: 50px;
-left: 50px;
-
-}
-
-#overlay3 img{
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform:tanslate(-10%,-10%);
-}
-#pencilcase{
-    position: absolute;
-    top:385px;
-    left:220px;
-}
-
-#close{
-    position: absolute;
-    top:10px;
-    right:10px;
-
-}
-
-   #backpack{
-       position: fixed;
-       top:350px;
-       left: 50px;
-   }
-
-footer{
-    bottom:5px;
-
-}
-footer li{
-    bottom:5px;
-    display: inline;
-    list-style: none;
-    
-    
-}
-footer p{
-    position: fixed;
-    bottom: 10px;
-    padding: 10px;
-        font-size: 15pt;
-        font-family: 'Special Elite', cursive;
-    }
-
-@media only screen and (min-width: 768px) {
-    p{
-        text-align: left;
-        font-size: 25pt;
-        font-family: 'Nanum Brush Script', cursive;
-    
-    }
-
-    /* waterbottle computerscreen */
-#overlay1{
-    position: absolute;
-    background-color: rgba(0,0,0,.70);
-    color:white;
-    display:none;
+    background-color: rgba(0, 0, 0, .70);
+    color: white;
+    display: none;
     height: 80%;
     width: 80%;
     top: 50px;
     left: 50px;
-    
-    }
-    #overlay1 img{
-        position: absolute;
-        top:50%;
-        left:50%;
-        transform:tanslate(-10%,-10%);
-    }
-    #water{
-        position:fixed;
-        top:53%;
-        left:48%;
-        width:8%;
-        height: 5%;
-        cursor: pointer;
-    }
-    /* ipad computerscreen */
-    #overlay2{
-        position: absolute;
-    background-color: rgba(0,0,0,.70);
-    color:papayawhip;
-    display:none;
+  }
+  #overlay1 img {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    width:15%;
+    height: 30%;
+
+  }
+  #water {
+    position: absolute;
+    top: 58%;
+    left: 44%;
+    width: 9%;
+    height: 6%;
+    cursor: pointer;
+  }
+  /* ipad computerscreen */
+  #overlay2 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .70);
+    color: papayawhip;
+    display: none;
     height: 80%;
     width: 80%;
     top: 50px;
     left: 50px;
-    
-    }
-    #overlay2 img{
-        position: absolute;
-        height: 25%;
-        width: 50%;
-        top:50%;
-        left:50%;
-        transform:tanslate(-50%,-50%);
-    }
-    
-    #ipad{
-        position: absolute;
-        top:50%;
-        left:40%;
-        width: 10%;
-        height: 8%;
-       
-    } 
-    /* pecilcase computerscreen */
-#overlay3{
+  }
+  #overlay2 img {
     position: absolute;
-background-color: rgba(0,0,0,.70);
-color:papayawhip;
-display:none;
-height: 80%;
-width: 80%;
-top: 50px;
-left: 50px;
-
-}
-
-#overlay3 img{
-    position: absolute;
-    width:50%;
     height: 25%;
-    top:50%;
-    left:50%;
-    transform:tanslate(-10%,-10%);
-}
-#pencilcase{
-    position: absolute;
-    top:49%;
-    left:54%;
-    width:100%;
-   
-}
-#eunice{
-margin-left: 42%;
-   text-align: center;
-   padding: 5px;
+    width: 50%;
+    top: 50%;
+    left: 28%;
 
-}
-#hello{
+  }
+  #ipad {
+    position: absolute;
+    top: 56%;
+    left: 35%;
+    width: 10%;
+    height: 8%;
+  }
+  /* pecilcase computerscreen */
+  #overlay3 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .70);
+    color: papayawhip;
+    display: none;
+    height: 80%;
+    width: 80%;
+    top: 50px;
+    left: 50px;
+  }
+  #overlay3 img {
+    position: absolute;
+    width: 50%;
+    height: 25%;
+    top: 50%;
+    left: 50%;
+
+  }
+  #pencilcase {
+    position: absolute;
+    top: 57%;
+    left: 51%;
+    width: 12%;
+    height: 7%;
+  }
+  /*image of the eunice's face  */
+  #eunice {
+    width:15%;
+    height: 25%;
+    left: 41%;
+    top:17%;
+  }
+  /*image of the talking comanent  */
+  #hello {
     position: absolute;
     width: 15%;
     height: 15%;
-    top:15%;
-    left: 55%;
-  
-    
- }
-#backpack{
+    top: 15%;
+    left: 52%;
+  }
+  #backpack {
     width: 35%;
     height: 50%;
-    margin-left: 30%;
-    text-align: center;
-    padding: 30px;
+    left: 30%;
+  }
+/*fade the penilcase, waterbottle, and ipad  */
+  .fade {
+    opacity: 0.5;
+  }
+  .fade:hover {
+    opacity: 1;
+  }
 }
-/* footer p{
-position: fixed;
-bottom: 10px;
-padding: 10px;
-    font-size: 15pt;
-    font-family: 'Special Elite', cursive;
-} */
-
- }
- 
