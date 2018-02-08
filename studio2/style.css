@@ -27,6 +27,9 @@ h3{
 p {
   font-size: 25pt;
   font-family: 'Nanum Brush Script', cursive;
+
+}
+#overlay1 p,#overlay2 p, #overlay3 p{
   width: 80%;
   margin: auto;
 }
