@@ -27,6 +27,8 @@ h3{
 p {
   font-size: 25pt;
   font-family: 'Nanum Brush Script', cursive;
+  width: 80%;
+  margin: auto;
 }
 
 .in {
@@ -100,7 +102,7 @@ p {
   height: 20%;
   width: 50%;
   top: 50%;
-  left: 28%;
+  left: 26%;
 }
 
 #ipad {
@@ -145,6 +147,7 @@ p {
   position: absolute;
   top: 10px;
   right: 10px;
+
 }
 
 #backpack {
@@ -183,6 +186,7 @@ footer p {
     font-size: 25pt;
     font-family: 'Nanum Brush Script', cursive;
     color:	rgb(229, 255, 255);
+    width: 80%;
 
   }
   /* waterbottle computerscreen */
