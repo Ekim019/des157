@@ -1,0 +1,85 @@
+body{
+
+  background-color:rgb(217, 217, 217);
+}
+/*audience  */
+#container{
+  width: 80%;
+  padding-left: 10%;
+  margin: auto;
+}
+h1{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30pt;
+text-align: center;
+color:white;
+ text-shadow: 2px 2px 8px #000000;
+
+}
+
+/* audince 1: Brightany Li  */
+#box1{
+  background-color:	rgb(255, 230, 230);
+  border-style: solid;
+  border-color: rgb(255, 230, 230);
+  width:40%;
+  float: left;
+  margin: 10px;
+   box-shadow: 5px 10px #888888;
+
+}
+/* audince 2: Alisha Sousa */
+#box2{
+  background-color:rgb(236, 255, 229);
+  border-style: solid;
+  border-color: rgb(236, 255, 229);
+  width:40%;
+  float: left;
+    margin: 10px;
+     box-shadow: 5px 10px #888888;
+}
+/* audince 3: Jennifer Ko */
+#box3{
+  background-color:rgb(229, 229, 255);
+  border-style: solid;
+  border-color: rgb(229, 229, 255);
+  width:40%;
+  float: left;
+  margin: 10px;
+   box-shadow: 5px 10px #888888;
+}
+/* audince 4:Angel Fong */
+#box4{
+  background-color: rgb(229, 255, 255);
+  border-style: solid;
+  border-color:rgb(229, 255, 255);
+  width:40%;
+  float: left;
+    margin: 10px;
+     box-shadow: 5px 10px #888888;
+}
+/*auience paragrah */
+ol,ul{
+padding-left: 50px;
+line-height: 25px;
+font-size: 11pt;
+font-family: 'Helvetica';
+}
+
+img{
+padding: 10px;
+ border-radius: 50px;
+ box-shadow: 5px 10px #888888;
+}
+
+footer {
+  position:fixed;
+  bottom: 0;
+
+}
+
+footer li {
+  display: inline;
+  list-style: none;
+
+}
