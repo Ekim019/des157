@@ -1,0 +1,36 @@
+body {
+  margin: auto;
+  width: 80%;
+  background-color: #ffe6e6;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45pt;
+  font-family: 'Patua One', cursive;
+}
+
+img {
+  padding-left: 19%;
+  width: 60%;
+  margin-bottom: .5in;
+}
+
+p {
+  width: 75%;
+  padding-left: 13%;
+  bottom: 10%;
+  line-height: 30px;
+  font-size: 15pt;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: .5in;
+}
+
+footer li {
+  list-style-type: none;
+  display: inline-block;
+  position: fixed;
+  bottom: 2%;
+  /* padding-left: 13%; */
+  left: 20%;
+}
