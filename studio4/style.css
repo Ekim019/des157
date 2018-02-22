@@ -9,20 +9,20 @@ body {
 
 h1 {
   left: 25%;
-  color:#004d00;
+  color: #004d00;
   font-size: 25pt;
   font-family: 'Press Start 2P', cursive;
 }
-p{
+
+p {
   font-size: 20pt;
   font-family: 'VT323', monospace;
-
 }
+
 #container {
   height: 600px;
   width: 600px;
   background-image: url('../images/back.png');
-  /* background-color:#d9ffb3; */
   position: relative;
 }
 
@@ -44,10 +44,11 @@ span {
   color: black;
   margin: 24px 12px;
 }
+
 footer {
   bottom: 5px;
   position: fixed;
-  left:38%;
+  left: 38%;
 }
 
 footer li {
@@ -55,5 +56,4 @@ footer li {
   padding-left: 15px;
   display: inline;
   list-style: none;
-
 }

@@ -6,7 +6,6 @@ console.log("reading js");
 
 var mygame = document.querySelector("#mygame");
 
-// var pixel = document.getElementById('pixel');
 var pixel = document.querySelector("#pixel");
 var pixelW = pixel.offsetWidth;
 var pixelH = pixel.offsetHeight;
@@ -19,17 +18,16 @@ var newLeft;
 var newTop;
 
 
-var mygameLeft=0;
-var mygameTop=0;
+var mygameLeft = 0;
+var mygameTop = 0;
 
 var score = document.querySelector("#score");
 var scoreCount = 0;
+
 // var reset=document.querySelector("#stop");
 
 var pixelInterval = setInterval(moveDiv, 3000);
-
-// pixel.addEventListener("e.keyCode", updateScore);
-// mygame.addEventListener("e.keyCode", updateScore);
+// reset.addEventListener("click", resetmyGame);
 
 function moveDiv() {
   newLeft = Math.floor(Math.random() * (containerW - pixelW));
@@ -59,9 +57,7 @@ function anim(e) {
   if (e.keyCode === 37) {
     mygameLeft -= 20;
 
-    // if(mygameLeft>=500){
-    //   mygameLeft-=20;
-    // }
+
     mygame.style.left = mygameLeft + 'px';
     if (mygameLeft <= 0) {
       mygameLeft += 20;
@@ -86,7 +82,7 @@ function anim(e) {
     }
   }
   updateScore();
-// resetmyGame();
+  // resetmyGame();
 
 }
 document.onkeydown = anim;
@@ -97,19 +93,20 @@ function updateScore() {
 
   console.log(mygameLeft, mygameTop, newLeft, newTop);
   // if(mygameLeft mygameTop newLeft newTop) {
-  if(Math.abs(mygameLeft- newLeft) <5) {
+  if (Math.abs(mygameLeft - newLeft)< 3) {
     scoreCount++;
     score.innerHTML = "Score:" + scoreCount;
-  }else if (Math.abs(mygameTop-newTop)<5){
+  }
+  if (Math.abs(mygameTop - newTop) < 3) {
     scoreCount++;
     score.innerHTML = "Score:" + scoreCount;
   }
 
 }
+
 // function resetmyGame(){
-//
-//
-//   scoreCount=0;
+// clearInterval (pixelInterval);
+// scoreCount=0;
 //   score.innerHTML="Score:"+scoreCount;
 //
 //   pixel.style.display='block';
