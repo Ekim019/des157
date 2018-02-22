@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+ }
+ body{
+     
+   padding-left: 30%; 
+ }
+
+ h1{
+    left:25%;
+    font-size: 30pt;
+ }
+ #container{
+     height: 600px;
+     width:600px;
+     background:(255, 255, 179);
+     outline:1px solid black;
+     position: relative;
+ }
+  
+  #mygame {
+    position:absolute;
+    height:100px;
+    width:100px;
+  
+    left:0;
+   top:0;
+ 
+  }
+  #pixel  {
+    position:absolute;
+    height:45px;
+    width:45px;
+    background-color:deeppink;
+  }
+  span {
+    color:black;
+    margin: 24px 12px;
+  }
