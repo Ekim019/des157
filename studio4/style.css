@@ -4,37 +4,56 @@
 
 body {
   padding-left: 30%;
+  background-color: #ffffcc;
 }
 
 h1 {
   left: 25%;
-  font-size: 30pt;
+  color:#004d00;
+  font-size: 25pt;
+  font-family: 'Press Start 2P', cursive;
 }
+p{
+  font-size: 20pt;
+  font-family: 'VT323', monospace;
 
+}
 #container {
   height: 600px;
   width: 600px;
-  background: (255, 255, 179);
-  outline: 1px solid black;
+  background-image: url('../images/back.png');
+  /* background-color:#d9ffb3; */
   position: relative;
 }
 
 #mygame {
   position: absolute;
-  height: 55px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   left: 0;
   top: 0;
 }
 
 #pixel {
   position: absolute;
-  height: 55px;
-  width: 50px;
-  background-color: deeppink;
+  height: 60px;
+  width: 60px;
 }
 
 span {
   color: black;
   margin: 24px 12px;
+}
+footer {
+  bottom: 5px;
+  position: fixed;
+  left:38%;
+}
+
+footer li {
+  bottom: 5px;
+  padding-left: 15px;
+  display: inline;
+  list-style: none;
+
 }
