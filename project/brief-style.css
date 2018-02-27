@@ -1,0 +1,27 @@
+body{
+  margin: auto;
+  width: 45%;
+}
+p{
+  line-height: 30px;
+  font-size: 14pt;
+  font-family: 'Indie Flower', cursive;
+}
+h2{
+  font-size: 20pt;
+  font-family: 'Gloria Hallelujah', cursive;
+    letter-spacing: 2pt;
+}
+h1{
+  font-size: 30pt;
+  font-family: 'Gloria Hallelujah', cursive;
+  letter-spacing: 5pt;
+  text-align: center;
+}
+a{
+  font-size: 12pt;
+  text-align: center;
+}
+a:active{
+  color:red;
+}
