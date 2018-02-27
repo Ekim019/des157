@@ -1,0 +1,26 @@
+body{
+  margin: auto;
+  width:50%;
+}
+h1,h2{
+  font-family: 'Gloria Hallelujah', cursive;
+  letter-spacing: 2pt;
+  text-align: center;
+}
+h1{
+font-size: 40pt;
+
+}
+h2{
+  font-size: 25pt;
+}
+img{
+  width: 300px;
+  height: 350px;
+
+}
+p, li{
+  font-family: 'Indie Flower', cursive;
+  font-size: 12pt;
+letter-spacing: 2pt;
+}
