@@ -1,0 +1,15 @@
+body{
+  margin: auto;
+  width:50%;
+
+}
+h1{
+  font-size: 30pt;
+  font-family: 'Coiny', cursive;
+  text-align: center;
+}
+img{
+  float: left;
+  width: 30%;
+  height: 30%;
+}

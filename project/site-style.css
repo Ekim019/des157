@@ -1,0 +1,21 @@
+body{
+  margin: auto;
+  width:50%;
+
+}
+
+img, h1{
+  text-align: center;
+}
+img{
+  width:65%;
+  height: 65%;
+}
+h1{
+  font-size: 30pt;
+  font-family: 'Coiny', cursive;
+}
+p{
+  letter-spacing: 2pt;
+  font-family: 'Handlee', cursive;
+}
