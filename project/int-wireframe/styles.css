@@ -1,8 +1,41 @@
-body{
-  margin: auto;
-  width: 50%;
-}
 h1{
-  font-size: 30pt;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Coiny', cursive;
+  font-size: 100pt;
+color: rgb(255, 255, 102);
+ text-shadow: 2px 2px #808000;
+text-align: center;
+}
+body{
+  width: 50%;
+  margin: auto;
+    background-color: rgb(230, 255, 255);
+}
+
+div{
+
+  background-color: rgb(217, 217, 217);
+  width: 300px;
+  height: 65px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40pt;
+  text-align: center;
+  border-radius: 15px;
+
+  margin: auto;
+
+}
+
+p{
+  font-size: 20pt;
+  font-family: 'Coming Soon', cursive;
+  background-color: rgb(242, 242, 242);
+  width: 500px;
+  height: 500px;
+
+  margin: auto;
+}
+a:link, a:hover{
+  text-decoration: none;
+  color:red;
+
 }
