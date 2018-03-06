@@ -1,0 +1,101 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family:Helvetica;
+  font-size:100%;
+
+}
+
+h1{
+  position: absolute;
+  font-size: 70pt;
+font-family: 'Press Start 2P', cursive;
+color:yellow;
+left: 39%;
+}
+h2{
+  position: absolute;
+  font-size: 40pt;
+font-family: 'Press Start 2P', cursive;
+color:yellow;
+left: 32%;
+
+}
+h3{
+  position: absolute;
+  font-size: 30pt;
+font-family: 'Press Start 2P', cursive;
+color:yellow;
+left: 20%;
+
+}
+nav {
+  position:fixed;
+  bottom:.5in;
+  font-size:1.5em;
+  left:30%;
+
+
+}
+ul{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  list-style-type:none;
+  float: left;
+  padding: 14px 16px;
+  text-align: center;
+}
+
+a {
+  border: 2px yellow solid;
+  border-radius:5px;
+  width:1in;
+  padding:16px;
+  margin-bottom:4px;
+  color:red;
+  background-color: yellow;
+  font-size: 17pt;
+  text-decoration: none;
+  display:inline-block;
+  font-family: 'VT323', monospace;
+
+}
+
+a:hover {
+  background-color:rgb(51, 51, 255);
+}
+.page {
+  /* setting height 100% for html, body, and for all pages makes each page full viewport */
+  height: 100%;
+  /* dirty hack to make text big and centered */
+  text-align: center;
+  font-size: 100vmin;
+  color:#333;
+}
+
+.hidden {
+  display:none;
+}
+
+#page1c {
+  background-color:rgb(0, 0, 51);
+}
+
+#page2c {
+  background-color:rgb(0, 0, 51);
+}
+
+#page3c {
+  background-color:rgb(0, 0, 51);
+}
+
+#page4c {
+  background-color:rgb(0, 0, 51);
+}
