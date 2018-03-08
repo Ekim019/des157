@@ -1,4 +1,3 @@
-
 h1 {
   position: absolute;
   font-size: 70pt;
@@ -12,7 +11,7 @@ h2 {
   font-size: 40pt;
   font-family: 'Press Start 2P', cursive;
   color: yellow;
-  left: 27%;
+  left: 35%;
 }
 
 h3 {
@@ -20,7 +19,7 @@ h3 {
   font-size: 25pt;
   font-family: 'Press Start 2P', cursive;
   color: yellow;
-  left: 5%;
+  left: 16%;
 }
 
 nav {
@@ -42,7 +41,9 @@ li {
   padding: 14px 16px;
   text-align: center;
 }
+
 /* <a> link icons*/
+
 #page1, #page2, #page3, #page4 {
   border: 1.5px yellow solid;
   border-radius: 5px;
@@ -67,9 +68,11 @@ li {
   font-size: 100vmin;
   color: #333;
 }
+
 /* instrcution section image */
+
 .inst {
-  width: 80%;
+  width: 65%;
   height: 80%;
   padding-top: .3in;
   padding-bottom: .5in;
@@ -94,19 +97,22 @@ li {
 #page4c {
   background-color: rgb(0, 0, 51);
 }
+
 /* <p> for instrcution */
-.struction{
+
+.struction {
   position: absolute;
   color: rgb(255, 194, 102);
   font-size: 20pt;
   font-family: 'Coiny', cursive;
-  top: 78%;
+  top: 75%;
   margin: auto;
   width: 60%;
   left: 18%;
   line-height: 37pt;
 }
-.qu{
+
+.qu {
   position: absolute;
   color: rgb(255, 194, 102);
   font-size: 20pt;
@@ -116,20 +122,19 @@ li {
   width: 60%;
   left: 18%;
   line-height: 37pt;
-
 }
 
 /* page1 background image */
 
 .ground {
   left: 0;
-  width: 80%;
+  width: 68%;
   height: 60%;
 }
 
-
 /* game play area */
- body,#page3c,#page4c {
+
+body, #page3c, #page4c {
   box-sizing: border-box;
   background-color: rgb(0, 0, 51);
   font-family: Helvetica, sans-serif;
@@ -141,17 +146,18 @@ section {
   position: absolute;
   height: 550px;
   width: 750px;
-  top: .2in;
-  left: 25%;
+  top: .5in;
+  left: 26%;
   border: 1px yellow solid;
   background-color: rgb(0, 0, 51);
   /* opacity: 1; */
 }
 
-span{
+span {
   position: absolute;
-  top:70%;
+  top: 70%;
 }
+
 /* pixel that moves around */
 
 div {
@@ -159,9 +165,10 @@ div {
   height: 90px;
   width: 90px;
 }
-/*background of image for game part  */
-#back {
 
+/*background of image for game part  */
+
+#back {
   height: 100%;
   width: 100%;
   left: 0;
@@ -171,17 +178,17 @@ div {
 
 #score {
   padding: 14px 16px;
-  left: 40%;
+  left: 38%;
   position: fixed;
-  bottom: 2.8in;
+  bottom: 3.2in;
   color: yellow;
 }
 
 #timeLeft {
   padding: 14px 16px;
-  left: 46%;
+  left: 44%;
   position: fixed;
-  bottom: 2.8in;
+  bottom: 3.2in;
   color: yellow;
 }
 
@@ -195,8 +202,8 @@ button {
   font-size: 1em;
   font-weight: bold;
   color: white;
-  left: 43%;
-  bottom: 1.2in;
+  left: 38%;
+  bottom: 1.8in;
   background-color: pink;
 }
 
@@ -208,27 +215,27 @@ button {
   font-size: 1em;
   font-weight: bold;
   color: white;
-  left: 53%;
-  bottom:1.2in;
+  left: 45%;
+  bottom: 1.8in;
 }
 
 #gameOverImg {
-
   width: 30%;
   height: 30%;
-  top:50%;
-  left:50%;
+  top: 50%;
+  left: 50%;
   padding-top: 5%;
-
 }
+
 /*footer Validation  */
+
 .var1 {
   font-size: 10pt;
   bottom: .25in;
   display: inline;
   list-style: none;
   position: fixed;
-  left: 43%;
+  left: 39%;
   color: white;
 }
 
@@ -238,6 +245,6 @@ button {
   display: inline;
   list-style: none;
   position: fixed;
-  left: 54%;
+  left: 47%;
   color: white;
 }
