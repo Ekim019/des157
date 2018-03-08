@@ -1,0 +1,18 @@
+body{
+  width: 80%;
+  top:2in;
+  padding-left: 10%;
+  margin: auto;
+}
+h1{
+  font: 20pt;
+  font-family: 'Rammetto One', cursive;
+}
+h2{
+  font-size: 20pt;
+  font-family: 'Rammetto One', cursive;
+}
+
+li{
+  font-size: 15pt;
+}
