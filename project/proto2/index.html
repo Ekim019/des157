@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <title>Interactive prototype2</title>
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+  <link href="https://necolas.github.io/normalize.css/7.0.0/normalize.css" rel="stylesheet">
+  <link href="../proto2/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+
+  <audio autoplay>
+  <source src="game.mp3" type="audio/mpeg">
+  <!-- https://downloads.khinsider.com/game-soundtracks/album/dennou-garou-pc-9801/02_BGM2.mp3 -->
+  </audio>
+  <nav>
+    <ul>
+      <!--     links start with a hash mark because they are local to this page and link to the element with the same id -->
+      <li><a href="#page1" id="page1">Home</a></li>
+      <li><a href="#page2" id="page2">INSTRUCTION</a></li>
+      <li><a href="#page3" id="page3">GAME START</a></li>
+      <li><a href="#page4" id="page4">LIST</a></li>
+
+    </ul>
+  </nav>
+  <article class="page" id="page1c">
+
+    <h1>Goo
+
+  <br />
+Goo
+<br />
+Game</h1>
+
+    <img class="ground" src="../../images/front.png" width="800" height="600" alt="ground" />
+  </article>
+  <article class="page hidden" id="page2c">
+    <h2>
+INSTRUCTION</h2>
+
+    <img class="inst" src="../../images/instruct.png" width="200" height="200" alt="instruct" />
+
+    <p>
+      *Click the star to get scores!
+    </p>
+  </article>
+
+  <article class="page hidden" id="page3c">
+
+
+    <section id="container">
+      <img id="back" src="../../images/gameback.png" width="750" height="550" alt="gameback" />
+
+      <div id="pixel">
+        <img src="../../images/happy.png" width="90" height="90" alt="happy" />
+        <!-- <img src="../../images/joy.png" width="90" height="90" alt="joy" />
+        <img src="../../images/calm.png" width="90" height="90" alt="calm" /> -->
+      </div>
+    </section>
+    <div>
+      <span id="score">Score: 0</span>
+    </div>
+    <div>
+      <span id="timeLeft">Time Remaining: 0</span>
+    </div>
+
+    <button id="stop" class="re">restart</button>
+
+
+    <div>
+      <button id="fullScreen">fullscreen</button> </div>
+
+
+    <img id="gameOverImg" src="../../images/gameover.png" width="800" height="600" alt="gover" />
+
+
+  </article>
+
+  <article class="page hidden" id="page4c">
+    <h3>
+  List of three Positive Emotion Quotes
+</h3>
+
+    <p>
+      HAPPY: “For every minute you are angry you lose sixty seconds of happiness.” ― Ralph Waldo Emerson
+      <br /> CLAM: "Calm mind brings inner strength and self-confidence, so that's very important for good health." -Dalai Lama
+      <br /> JOY: “The most wasted of all days is one without laughter.” ― Nicolas Chamfort
+    </p>
+
+  </article>
+
+  <footer>
+    <nav>
+      <ul>
+        <li>
+          <a class="var1" href="https://validator.w3.org/check?uri=referer">HTML Validation</a>
+
+        </li>
+
+        <li>
+          <a class="var2" href="https://jigsaw.w3.org/css-validator/check/referer">CSS Validation</a>
+
+        </li>
+
+      </ul>
+    </nav>
+  </footer>
+  <script src="../proto2/script.js"></script>
+
+</body>
+
+</html>

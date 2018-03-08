@@ -55,7 +55,7 @@ footer {
   left: 38%;
 }
 
-footer li {
+footer li, .icon {
   bottom: 5px;
   padding-left: 15px;
   display: inline;
