@@ -37,7 +37,7 @@ var sectionH = 550; // height of section, updated in moveDiv
 var score = document.querySelector("#score");
 var scoreCount = 0; // beginning score
 var timeLeft = document.querySelector("#timeLeft");
-var count = 10; // for the time remaining, starts at 30
+var count = 30; // for the time remaining, starts at 30
 var reset = document.querySelector("#stop");
 var gameOverImg = document.querySelector('#gameOverImg');
 var gameOverAnim; // animation
