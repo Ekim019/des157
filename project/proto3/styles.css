@@ -58,6 +58,7 @@ nav {
   bottom: .5in;
   font-size: 1.5em;
   left: 24%;
+  z-index: 10px;
 }
 
 ul {
