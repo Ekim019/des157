@@ -24,10 +24,10 @@ h2 {
 
 #u {
   position: absolute;
-  font-size: 40pt;
+  font-size: 36pt;
   font-family: 'Press Start 2P', cursive;
   color: yellow;
-  left: 24%;
+  left: 23%;
   text-shadow: 3px 3px #994d00;
 }
 
@@ -161,10 +161,10 @@ input[type=text], select {
 
 input[type=submit] {
   position: absolute;
-  top: 350px;
+  top: 250px;
   left: 30%;
   width: 25%;
-  background-color: #4CAF50;
+  background-color: pink;
   color: white;
   padding: 14px 20px;
   /* margin: 8px 0; */
@@ -174,7 +174,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: red;
+  color: yellow;
 }
 
 /* instrcution section image */
@@ -232,7 +233,7 @@ body, #page3c, #page4c {
   width: 550px;
   top: 160px;
   left: 600px;
-  background-color: black;
+  background-color: #00001a;
   opacity: 1;
   z-index: 10;
 }

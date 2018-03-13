@@ -105,7 +105,7 @@ function countDown() {
 // show an alert with the score and clear the timeout and reset the game
 function gameOver() {
   timeLeft.innerHTML = "Time Remaining: 0";
-  alert("Good Gob!" + "Game Over! Your score is " + scoreCount + "!" + "do you want play agian?");
+  alert("Good Gob! " + "Game Over!" + " Your score is " + scoreCount + " ! " + "do you want play agian?");
   // hide pixel
   // pixel.style.display = 'none';
   // resetGame();
