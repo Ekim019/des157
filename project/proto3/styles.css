@@ -5,7 +5,7 @@ h1 {
   font-size: 70pt;
   font-family: 'Press Start 2P', cursive;
   color: yellow;
-  text-shadow: 5px 5px orange;
+  text-shadow: 5px 5px #994d00;
   left: 37%;
 }
 
@@ -17,7 +17,7 @@ h2 {
   font-family: 'Press Start 2P', cursive;
   color: yellow;
   left: 31%;
-  text-shadow: 3px 3px orange;
+  text-shadow: 3px 3px #994d00;
 }
 
 /*info page */
@@ -28,7 +28,7 @@ h2 {
   font-family: 'Press Start 2P', cursive;
   color: yellow;
   left: 24%;
-  text-shadow: 3px 3px orange;
+  text-shadow: 3px 3px #994d00;
 }
 
 /* stastic page*/
@@ -57,7 +57,7 @@ nav {
   position: fixed;
   bottom: .5in;
   font-size: 1.5em;
-  left: 23%;
+  left: 24%;
 }
 
 ul {
