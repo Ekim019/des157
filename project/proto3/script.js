@@ -50,7 +50,7 @@ var gameOverImg = document.querySelector('#gameOverImg');
 var gameOverAnim; // animation
 var gameOverX = -200; // x position of graphic
 var screenW = screen.width;
-var pixelInterval = setInterval(moveDiv, 2000); // change the second parameter to move the pixel faster/slower
+var pixelInterval = setInterval(moveDiv, 1000); // change the second parameter to move the pixel faster/slower
 
 var countInterval; // to display Time Remaining
 
@@ -107,7 +107,7 @@ function gameOver() {
   timeLeft.innerHTML = "Time Remaining: 0";
   alert("Good Gob!" + "Game Over! Your score is " + scoreCount + "!" + "do you want play agian?");
   // hide pixel
-  pixel.style.display = 'none';
+  // pixel.style.display = 'none';
   // resetGame();
   playGameOverAnim();
 }
@@ -121,7 +121,6 @@ function playGameOverAnim() {
   clearTimeout(timerId);
 
   // turn on game over graphic
-
 
   // check right edge and move gameOverImg
   if (gameOverX < screenW) {
