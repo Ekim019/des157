@@ -38,6 +38,7 @@ h3 {
   font-size: 25pt;
   font-family: 'Press Start 2P', cursive;
   color: yellow;
+  top: 25px;
   left: 15%;
   text-shadow: 3px 3px orange;
 }
@@ -129,11 +130,11 @@ li {
   font-size: 20pt;
   font-family: 'Coiny', cursive;
   position: absolute;
-  width: 350px;
+  width: 43%;
   color: orange;
   top: 25%;
-  left: 30%;
-  text-align: justify;
+  left: 25%;
+  text-align: left;
 }
 
 input[type=text], select {
@@ -151,8 +152,8 @@ input[type=text], select {
 input[type=submit] {
   position: absolute;
   top: 350px;
-  left: 150px;
-  width: 40%;
+  left: 30%;
+  width: 25%;
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
