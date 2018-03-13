@@ -36,21 +36,24 @@ function hidePages() {
 console.log("reading js");
 var page3 = document.querySelector("#page3");
 var pixel = document.querySelector("#pixel");
+// var pixel2 = document.querySelector("#pixel2");
+// var pixel2W = 45; // width of pixel
+// var pixel2H = 45;
 var pixelW = 45; // width of pixel
 var pixelH = 45; // height of pixel
 var section = document.querySelector("section");
-var sectionW = 500; // for width of section, updated in moveDiv
+var sectionW = 750; // for width of section, updated in moveDiv
 var sectionH = 320; // height of section, updated in moveDiv
 var score = document.querySelector("#score");
 var scoreCount = 0; // beginning score
 var timeLeft = document.querySelector("#timeLeft");
-var count = 25; // for the time remaining, starts at 30
+var count = 30; // for the time remaining, starts at 30
 var reset = document.querySelector("#stop");
 var gameOverImg = document.querySelector('#gameOverImg');
 var gameOverAnim; // animation
 var gameOverX = -200; // x position of graphic
 var screenW = screen.width;
-var pixelInterval = setInterval(moveDiv, 1000); // change the second parameter to move the pixel faster/slower
+var pixelInterval = setInterval(moveDiv, 1500); // change the second parameter to move the pixel faster/slower
 
 var countInterval; // to display Time Remaining
 
@@ -77,10 +80,13 @@ function moveDiv() {
   // The Math.floor() method rounds a number downwards to the nearest integer
   var newLeft = Math.floor(Math.random() * (sectionW - pixelW));
   var newTop = Math.floor(Math.random() * (sectionH - pixelH));
-
+  // var newLeft1 = Math.floor(Math.random() * (sectionW - pixel2W));
+  // var newTop1 = Math.floor(Math.random() * (sectionH - pixel2H));
   // update pixel location
   pixel.style.left = newLeft + "px";
   pixel.style.top = newTop + "px";
+  // pixel2.style.left = newLeft1 + "px";
+  // pixel2.style.top = newTop1 + "px";
 
 }
 
@@ -107,7 +113,7 @@ function gameOver() {
   timeLeft.innerHTML = "Time Remaining: 0";
   alert("Good Gob! " + "Game Over!" + " Your score is " + scoreCount + " ! " + "do you want play agian?");
   // hide pixel
-  // pixel.style.display = 'none';
+  pixel.style.display = 'none';
   // resetGame();
   playGameOverAnim();
 }
@@ -143,21 +149,21 @@ function resetGame() {
   clearInterval(countInterval);
   clearTimeout(timerId);
   // cancelAnimationFrame (gameOverAnim);
-  gameOverImg.style.display = "none";
+  // gameOverImg.style.display = "none";
 
   // reset scoreCount and count
   scoreCount = 0;
-  count = 25;
+  count = 30;
   gameOverX = -200;
 
   // update interface
   timeLeft.innerHTML = "Time Remaining: " + count;
   score.innerHTML = "Score: " + scoreCount;
   section.style.opacity = 1;
-  // pixel.style.display = 'block';
+  pixel.style.display = 'block';
 
   // start intervals and timer again
-  pixelInterval = setInterval(moveDiv, 1000);
+  pixelInterval = setInterval(moveDiv, 1500);
   countInterval = setInterval(countDown, 1000);
   timerId = setTimeout(gameOver, 1000 * count);
 }
