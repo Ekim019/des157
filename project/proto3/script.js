@@ -107,7 +107,7 @@ function gameOver() {
   timeLeft.innerHTML = "Time Remaining: 0";
   alert("Good Gob!"+"Game Over! Your score is " + scoreCount +"!"+ "do you want play agian?");
   // hide pixel
-  pixel.style.display = 'none';
+  // pixel.style.display = 'none';
   // resetGame();
   playGameOverAnim();
 }
