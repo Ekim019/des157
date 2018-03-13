@@ -43,11 +43,21 @@ h3 {
   text-shadow: 3px 3px #994d00;
 }
 
+h4 {
+  position: absolute;
+  font-size: 22pt;
+  font-family: 'Press Start 2P', cursive;
+  color: yellow;
+  top: 25px;
+  left: 3%;
+  text-shadow: 3px 3px #994d00;
+}
+
 nav {
   position: fixed;
   bottom: .5in;
   font-size: 1.5em;
-  left: 28%;
+  left: 23%;
 }
 
 ul {
@@ -65,7 +75,7 @@ li {
 
 /* <a> link icons for page*/
 
-#page1, #page2, #page3, #page4, #page5 {
+#page1, #page2, #page3, #page4, #page5, #page6 {
   border: 1.5px yellow solid;
   border-radius: 5px;
   width: 1in;
@@ -79,7 +89,7 @@ li {
   font-family: 'VT323', monospace;
 }
 
-#page1:hover, #page2:hover, #page3:hover, #page4:hover, #page5:hover {
+#page1:hover, #page2:hover, #page3:hover, #page4:hover, #page5:hover, #page6:hover {
   background-color: rgb(51, 51, 255);
 }
 
