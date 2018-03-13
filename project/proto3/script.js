@@ -34,13 +34,13 @@ function hidePages() {
 
 // send a message to the console
 console.log("reading js");
-var page3=document.querySelector("#page3");
+var page3 = document.querySelector("#page3");
 var pixel = document.querySelector("#pixel");
 var pixelW = 45; // width of pixel
 var pixelH = 45; // height of pixel
 var section = document.querySelector("section");
-var sectionW=500; // for width of section, updated in moveDiv
-var sectionH=320; // height of section, updated in moveDiv
+var sectionW = 500; // for width of section, updated in moveDiv
+var sectionH = 320; // height of section, updated in moveDiv
 var score = document.querySelector("#score");
 var scoreCount = 0; // beginning score
 var timeLeft = document.querySelector("#timeLeft");
@@ -55,7 +55,7 @@ var pixelInterval = setInterval(moveDiv, 2000); // change the second parameter t
 var countInterval; // to display Time Remaining
 
 var timerId; // to end the game when the time limit is reached
-page3.addEventListener("click",gamestart);
+page3.addEventListener("click", gamestart);
 
 
 // bind click eventListener to pixel with a custom callback function
@@ -79,8 +79,8 @@ function moveDiv() {
   var newTop = Math.floor(Math.random() * (sectionH - pixelH));
 
   // update pixel location
-  pixel.style.left = newLeft+"px";
-  pixel.style.top = newTop+"px";
+  pixel.style.left = newLeft + "px";
+  pixel.style.top = newTop + "px";
 
 }
 
@@ -91,8 +91,8 @@ function updateScore() {
 }
 
 function gamestart() {
- countInterval = setInterval(countDown, 1000);
- timerId = setTimeout(gameOver, 1000 * count);
+  countInterval = setInterval(countDown, 1000);
+  timerId = setTimeout(gameOver, 1000 * count);
 }
 
 // update the time remaining and display in UI
@@ -105,27 +105,27 @@ function countDown() {
 // show an alert with the score and clear the timeout and reset the game
 function gameOver() {
   timeLeft.innerHTML = "Time Remaining: 0";
-  alert("Good Gob!"+"Game Over! Your score is " + scoreCount +"!"+ "do you want play agian?");
+  alert("Good Gob!" + "Game Over! Your score is " + scoreCount + "!" + "do you want play agian?");
   // hide pixel
-  // pixel.style.display = 'none';
+  pixel.style.display = 'none';
   // resetGame();
   playGameOverAnim();
 }
 
 // play animation around viewport
-function playGameOverAnim(){
+function playGameOverAnim() {
   // clear intervals and timeout in case user
   // resets before timeout is reached
-  clearInterval (pixelInterval);
-  clearInterval (countInterval);
-  clearTimeout (timerId);
+  clearInterval(pixelInterval);
+  clearInterval(countInterval);
+  clearTimeout(timerId);
 
- // turn on game over graphic
+  // turn on game over graphic
 
 
   // check right edge and move gameOverImg
-  if (gameOverX < screenW){
-  gameOverX+=2;
+  if (gameOverX < screenW) {
+    gameOverX += 2;
   } else {
     gameOverX = -200;
   }
@@ -140,9 +140,9 @@ function resetGame() {
   // console.log("reset");
 
   // clear intervals, timeout and animation
-  clearInterval (pixelInterval);
-  clearInterval (countInterval);
-  clearTimeout (timerId);
+  clearInterval(pixelInterval);
+  clearInterval(countInterval);
+  clearTimeout(timerId);
   // cancelAnimationFrame (gameOverAnim);
   gameOverImg.style.display = "none";
 
@@ -157,7 +157,7 @@ function resetGame() {
   section.style.opacity = 1;
   // pixel.style.display = 'block';
 
- // start intervals and timer again
+  // start intervals and timer again
   pixelInterval = setInterval(moveDiv, 1000);
   countInterval = setInterval(countDown, 1000);
   timerId = setTimeout(gameOver, 1000 * count);
@@ -202,9 +202,9 @@ document.addEventListener('MSFullscreenChange', exitHandler);
 
 function exitHandler() {
   console.log('exitHandler');
-    if (!document.fullscreenElement && !document.webkitIsFullScreen && !document.mozFullScreen && !document.msFullscreenElement) {
+  if (!document.fullscreenElement && !document.webkitIsFullScreen && !document.mozFullScreen && !document.msFullscreenElement) {
 
-       fullS.style.display = 'inline';
-      section.style.height = '320px';
-    }
+    fullS.style.display = 'inline';
+    section.style.height = '320px';
+  }
 }
