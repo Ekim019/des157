@@ -21,7 +21,12 @@ h2 {
 }
 /*info page */
 #u{
-  
+  position: absolute;
+  font-size: 40pt;
+  font-family: 'Press Start 2P', cursive;
+  color: yellow;
+  left: 20%;
+    text-shadow: 3px 3px orange;
 }
 /* stastic page*/
 
