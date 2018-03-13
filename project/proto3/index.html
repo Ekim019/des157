@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <title>Interactive prototype3</title>
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+  <link href="https://necolas.github.io/normalize.css/7.0.0/normalize.css" rel="stylesheet">
+  <link href="../proto3/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+<!-- HAPPY: â€œFor every minute you are angry you lose sixty seconds of happiness.â€� â€• Ralph Waldo Emerson -->
+  <audio autoplay>
+  <source src="game.mp3" type="audio/mpeg">
+  <!-- https://downloads.khinsider.com/game-soundtracks/album/dennou-garou-pc-9801/02_BGM2.mp3 -->
+  </audio>
+
+  <nav>
+    <ul>
+      <li><a href="#page1" id="page1">HOME</a></li>
+      <li><a href="#page5" id="page5">YOUR INFO</a></li>
+      <li><a href="#page2" id="page2">INSTRUCTION</a></li>
+      <li><a href="#page3" id="page3">GAMESTART</a></li>
+      <li><a href="#page4" id="page4">STASTIC</a></li>
+
+    </ul>
+  </nav>
+
+  <!--Home page  -->
+  <article class="page" id="page1c">
+    <h1>Goo
+  <br />
+Goo
+<br />
+Game</h1>
+
+    <img class="ground" src="../../images/backg.png" width="800" height="600" alt="ground" />
+  </article>
+<!-- info page -->
+  <article class="page hidden" id="page5c">
+
+    <h2 id="u">your infomation</h2>
+    <form name="f" id="uinfo">
+      <div>
+        <label for="userName">Name</label>
+        <input type="text" id="userName" placeholder="Your name..." required>
+
+        <label for="userAge">Age</label>
+        <select id="userAge" name="Age">
+              <option value="select">Select</option>
+            <option value="under18">Under18</option>
+            <option value="18">18-20</option>
+            <option value="21">21-25</option>
+            <option value="26">26-30</option>
+            <option value="more">31+</option>
+            </select>
+
+
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender">
+      <option value="select">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="others">Others</option>
+        </select>
+
+        <label for="stress">Stresslevel</label>
+        <select id="stress" name="stress">
+          <option value="select">select</option>
+            <option value="1">1:less stress</option>
+            <option value="2">2:little stress</option>
+            <option value="3">3:average</option>
+            <option value="4">4:stressful</option>
+              <option value="5">5:really stressful</option>
+            </select>
+
+            <input type="submit" value="Submit">
+             </form>
+      </div>
+
+      <!-- <section id="results" class="hideRe">
+        <p id="myMsg"></p>
+      </section> -->
+  </article>
+
+  <!--instruction page  -->
+  <article class="page hidden" id="page2c">
+    <h2>INSTRUCTION</h2>
+
+    <img class="inst" src="../../images/instruct.png" width="200" height="200" alt="instruct" />
+
+    <p class="struction">
+      *Click the star to get scores!
+    </p>
+  </article>
+
+  <!--Game start page  -->
+  <article class="page hidden" id="page3c">
+    <section id="container">
+
+        <img id="back" src="../../images/gameback.png" width="750" height="550" alt="gameback" />
+
+        <div id="pixel">
+        <img src="../../images/happy.png" width="45" height="45" alt="happy" />
+      </div>
+    </section>
+
+    <span id="score">Score: 0</span>
+
+    <span id="timeLeft">Time Remaining: 0</span>
+
+    <button id="stop" class="re">restart</button>
+
+    <div><button id="fullScreen">fullscreen</button></div>
+
+    <img id="gameOverImg" src="../../images/gameover.png" width="800" height="600" alt="gover" />
+  </article>
+
+  <!--emotion quotes  page  -->
+  <article class="page hidden" id="page4c">
+    <h3>
+   College studet's stastic of stressness
+</h3>
+    <img id="graph"src="../../images/graph.png" width="400" height="400" alt="graph" />
+
+
+
+  <footer>
+    <nav>
+      <ul>
+        <li>
+          <a class="var1" href="https://validator.w3.org/check?uri=referer">HTML Validation</a>
+
+        </li>
+
+        <li>
+          <a class="var2" href="https://jigsaw.w3.org/css-validator/check/referer">CSS Validation</a>
+
+        </li>
+
+      </ul>
+    </nav>
+  </footer>
+  <script src="../proto3/script.js"></script>
+
+</body>
+
+</html>
