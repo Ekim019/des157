@@ -51,3 +51,9 @@ Temporary Items
 .apdisk
 
 # End of https://www.gitignore.io/api/windows,osx
+images/graph.png
+images/backg.png
+project/proto3/game.mp3
+project/proto3/index.html
+project/proto3/script.js
+project/proto3/styles.css
