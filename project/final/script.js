@@ -27,23 +27,26 @@ function hidePages() {
     pages[i].classList.add("hidden");
   }
 }
-function save(){
-  var fieldValue=document.getElementById('userName').value;
-  localStorage.setItem('text',fieldValue);
-  var fieldValue=document.getElementById('stress').value;
-  localStorage.setItem('option',fieldValue);
-  var gender=document.getElementById('gender').value;
-  localStorage.setItem('option2',fieldValue);
+
+function save() {
+  var fieldValue = document.getElementById('userName').value;
+  localStorage.setItem('text', fieldValue);
+  var fieldValue = document.getElementById('stress').value;
+  localStorage.setItem('option', fieldValue);
+  var gender = document.getElementById('gender').value;
+  localStorage.setItem('option2', fieldValue);
 
 }
-function load(){
-  var storedValue=localStorage.getItem('text');
-    var storedValue=localStorage.getItem('option');
-  if(storedValue){
-    document.getElementById('userName').value=storedValue;
-      document.getElementById('userAge').value=storedValue;
-        document.getElementById('gender').value=storedValue;
-          document.getElementById('stress').value=storedValue;
+
+function load() {
+  var storedValue = localStorage.getItem('text');
+  var storedValue = localStorage.getItem('option');
+
+  if (storedValue) {
+    document.getElementById('userName').value = storedValue;
+    document.getElementById('userAge').value = storedValue;
+    document.getElementById('gender').value = storedValue;
+    document.getElementById('stress').value = storedValue;
   }
 }
 
@@ -111,7 +114,7 @@ function gamestart() {
 // update the time remaining and display in UI
 function countDown() {
   count = count - 1; // same as count--
-  section.style.opacity = count* .5; // darken the screen
+  section.style.opacity = count * .5; // darken the screen
   timeLeft.innerHTML = "Time Remaining: " + count; // show remaining time on screen
 }
 
@@ -123,7 +126,7 @@ function gameOver() {
   pixel.style.display = 'none';
 
   playGameOverAnim();
-    // resetGame();
+  // resetGame();
 }
 
 // play animation around viewport

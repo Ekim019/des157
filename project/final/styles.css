@@ -1,7 +1,9 @@
 /* page1:main page title */
-html{
+
+html {
   background-color: rgb(0, 0, 51);
 }
+
 h1 {
   position: absolute;
   font-size: 70pt;
@@ -18,7 +20,7 @@ h2 {
   font-size: 40pt;
   font-family: 'Press Start 2P', cursive;
   color: yellow;
-  left: 28%;
+  left: 32%;
   text-shadow: 3px 3px #994d00;
 }
 
@@ -29,37 +31,17 @@ h2 {
   font-size: 36pt;
   font-family: 'Press Start 2P', cursive;
   color: yellow;
-  left: 23%;
+  left: 27%;
   text-shadow: 3px 3px #994d00;
 }
 
 /* stastic page*/
 
-h3 {
-  position: absolute;
-  font-size: 25pt;
-  font-family: 'Press Start 2P', cursive;
-  color: yellow;
-  top: 25px;
-  left: 15%;
-  text-shadow: 3px 3px #994d00;
-}
-
-h4 {
-  position: absolute;
-  font-size: 22pt;
-  font-family: 'Press Start 2P', cursive;
-  color: yellow;
-  top: 25px;
-  left: 3%;
-  text-shadow: 3px 3px #994d00;
-}
-
 nav {
   position: fixed;
   bottom: .5in;
   font-size: 1.5em;
-  left: 30%;
+  left: 32%;
   z-index: 10px;
 }
 
@@ -111,8 +93,6 @@ li {
   background-image: url("../../images/backg.png");
   background-repeat: no-repeat;
 }
-
-
 
 /* page1 background image */
 
@@ -166,10 +146,11 @@ input[type=submit]:hover {
   background-color: red;
   color: yellow;
 }
-#in{
+
+#in {
   position: fixed;
   color: rgb(255, 194, 102);
-  font-size:15pt;
+  font-size: 15pt;
   font-family: 'Coiny', cursive;
   top: 15%;
   margin: auto;
@@ -177,13 +158,14 @@ input[type=submit]:hover {
   left: 17%;
   line-height: 37pt;
 }
+
 /* instrcution section image */
 
 .inst {
   position: fixed;
   width: 65%;
   height: 75%;
-  left: 18%;
+  left: 15%;
   padding-top: .3in;
   padding-bottom: .5in;
 }
@@ -198,10 +180,9 @@ input[type=submit]:hover {
   top: 65%;
   margin: auto;
   width: 60%;
-  left: 17%;
+  left: 19%;
   line-height: 37pt;
 }
-
 
 /* game play area */
 
@@ -217,8 +198,8 @@ body, #page3c, #page4c {
   position: absolute;
   height: 500px;
   width: 999px;
-  top: 15px;
-  left: 200px;
+  top: 100px;
+  left: 400px;
   border: 1.5px yellow solid;
   background-color: #00001a;
   opacity: 1;
@@ -260,7 +241,7 @@ span {
 
 #timeLeft {
   padding: 14px 16px;
-  left: 53%;
+  left: 47%;
   position: fixed;
   bottom: 1.8in;
   color: yellow;
@@ -276,7 +257,7 @@ button {
   font-size: 1em;
   font-weight: bold;
   color: white;
-  left: 40%;
+  left: 39%;
   bottom: 1.5in;
   background-color: pink;
 }
@@ -289,7 +270,7 @@ button {
   font-size: 1em;
   font-weight: bold;
   color: white;
-  left: 55%;
+  left: 49%;
   bottom: 1.5in;
 }
 
@@ -297,12 +278,9 @@ button {
   position: absolute;
   height: 500px;
   width: 700px;
-  top: 15px;
-  left: 300px;
+  top: 100px;
+  left: 550px;
 }
-
-
-
 
 /*footer Validation  */
 
@@ -324,6 +302,6 @@ button {
   display: inline;
   list-style: none;
   position: fixed;
-  left: 57%;
+  left: 51%;
   color: white;
 }
