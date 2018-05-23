@@ -193,7 +193,7 @@ a:hover{
 /*main cover image  */
 .hero-image {
   position: absolute;
-  background-image: url("eunice.jpg");
+  background-image: url("../images/eunice.jpg");
   height: 100%;
   width: 100%;
   background-position: center;
