@@ -1,0 +1,281 @@
+*{
+  font-family: 'IBM Plex Sans', sans-serif;
+box-sizing: border-box;
+  color: #22264B;
+}
+body,html{
+  height: 100%;
+  background-color: #E8EDF3;
+
+}
+h1{
+  font-size: 50px;
+  padding: 10px;
+  color: #22264B;
+}
+h2{
+  font-size: 50pt;
+    color: #22264B;
+    padding: 15px;
+}
+h5{
+  font-size: 10pt;
+  color: #22264B;
+}
+h3{
+  font-size: 15pt;
+  margin-left:30px;
+  color: #22264B;
+}
+h4{
+  font-size: 20pt;
+    color: #22264B;
+}
+/*work*/
+/* .main {
+    max-width: 1000px;
+    margin: auto;
+} */
+
+.container0 {
+  position: absolute;
+background:  rgba(255, 255, 255, 0.5);
+top:125%;
+left: 1%;
+  margin: 0 auto;
+  padding: 10px;
+  float: left;
+
+}
+.container1 {
+    position: absolute;
+  background:  rgba(255, 255, 255, 0.5);
+    top:170%;
+    left: 1%;
+    margin: 0 auto;
+    padding: 10px;
+    float: left;
+
+}
+.container2 {
+  background:  rgba(255, 255, 255, 0.5);
+  width: 50%;
+  padding:20px;
+    position: absolute;
+    top:125%;
+    left: 50%;
+    max-width: 800px;
+    /* margin: 0 auto; */
+    /* padding: 10px; */
+    float: right;
+
+}
+.container3 {
+  background:  rgba(255, 255, 255, 0.5);
+  width: 50%;
+  padding:20px;
+
+    position: absolute;
+    top:170%;
+    left: 50%;
+    max-width: 800px;
+    /* margin: 0 auto; */
+    /* padding: 10px; */
+    float: right;
+
+}
+
+/* .container img {vertical-align: middle;} */
+
+.container .content  {
+  top: 10;
+    bottom: 0;
+    background:  rgba(255, 255, 255, 0.5); /* Black background with transparency */
+    width: 70%;
+    padding:20px;
+}
+
+/*  */
+
+.work{
+  font-size: 10pt;
+  color: white;
+list-style-type: circle;
+}
+.education{
+  position: absolute;
+  float: left;
+  top:260%;
+  font-size: 15pt;
+text-align: left;
+
+}
+ .adobe{
+float: left;
+margin-right: 50px;
+  font-size: 10pt;
+  list-style-type: circle;
+}
+.web2{
+float: left;
+margin-right: 50px;
+  font-size: 10pt;
+  list-style-type: circle;
+  margin-left:10px;
+}
+.other{
+  float: left;
+  margin-right: 50px;
+    font-size: 10pt;
+    list-style-type: circle;
+}
+.lan{
+  float: left;
+  margin-right: 50px;
+    font-size: 10pt;
+    list-style-type: circle;
+}
+img{
+  padding-left: 50px;
+
+}
+/*page scolling  */
+P{
+  font-size: 15pt;
+  text-align: left;
+  position: absolute;
+  top: 363%;
+  left: 12%;
+
+}
+
+body{
+  margin:0;
+  padding:0;
+  height:100%;
+}
+nav{
+  top:0px;
+  font-size:1.5em;
+overflow: hidden;
+display: block;
+  color: #22264B;
+}
+
+li{
+  list-style-type:none;
+
+}
+a{
+
+  float: left;
+  padding: 14px 16px;
+  /* border: 2px #333 solid; */
+  /* border-radius: 5px; */
+  width:1in
+
+  /* margin-bottom: 4px; */
+  color: #22264B;
+  text-decoration: none;
+  display:block;
+}
+a:hover{
+  background-color: white;
+
+}
+.page{
+  height:100%;
+  width: 100%;
+  font-size: 100vmin;
+  color: #22264B;
+
+}
+/*main cover image  */
+.hero-image {
+  position: absolute;
+  background-image: url("eunice.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: #E8EDF3;
+}
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  top:150%;
+  left:80px;
+  /* padding: 10px 25px; */
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+    position: absolute;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+/*  */
+form{
+  position: absolute;
+  top:350%;
+  left: 40%;
+  background-color: white;
+  font-size: 20pt;
+  width: 50%;
+  height:50%;
+  padding-left: 10px;
+}
+input{
+  width: 50%;
+height:5%;
+margin-left:3%;
+background-color: #E6CF8B;
+
+}
+.mes{
+background-color: #E6CF8B;
+  width: 50%;
+  height: 60%;
+  top:20%;
+  margin-top: 5%;
+}
+.sub{
+  background-color: #B56969;
+    width: 50%;
+    height: 5%;
+    top:20%;
+  margin-left: 15%;
+}
+/*scolling the page  */
+#page1{
+  background-color: #E8EDF3
+}
+#page2{
+  background-color: #E8EDF3;
+  border-style: outset;
+  border-width: 50%;
+}
+#page3{
+  background-color: #E8EDF3;
+}
+#page4{
+  background-color: #E8EDF3;
+}
+#page5{
+  background-color: #E8EDF3;
+}
