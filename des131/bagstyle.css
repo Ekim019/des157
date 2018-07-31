@@ -1,0 +1,192 @@
+
+@media only screen and (max-width: 414px) {
+  .deviceWidth {width:280px!important; padding:0;}
+  .center {text-align: center!important;}
+
+  body{
+    margin:0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+/*image*/
+#bucket3{
+  position: fixed;
+  padding: 5%;
+  top:17%;
+left:1%;
+}
+.bucket3{
+    position: fixed;
+    padding: 2%;
+font-family: 'Nanum Gothic', sans-serif;
+font-size: 8pt;
+top: 45%;
+left:5%;
+}
+.bucket3_1{
+  position: fixed;
+
+  padding: 2%;
+font-family: 'Nanum Gothic', sans-serif;
+font-size: 8pt;
+top: 48%;
+left:5%;
+
+}
+/*image 4 */
+#bucket4{
+  position: fixed;
+  padding: 5%;
+  top:17%;
+left:215px;
+}
+.bucket4{
+    position: fixed;
+    padding: 2%;
+font-family: 'Nanum Gothic', sans-serif;
+font-size: 8pt;
+top: 45%;
+left:55%;
+}
+.bucket4_1{
+  position: fixed;
+  padding: 2%;
+font-family: 'Nanum Gothic', sans-serif;
+font-size: 8pt;
+top: 48%;
+left:55%;
+
+}
+
+/*image 0 */
+#bucket0{
+  position: fixed;
+  padding: 2.5%;
+  top:55%;
+left:3%;
+}
+.bucket0{
+position: fixed;
+padding: 2.5%;
+font-family: 'Nanum Gothic', sans-serif;
+font-size: 8pt;
+top: 81.5%;
+left:3%;
+}
+.bucket0_1{
+  position: fixed;
+  padding: 2.5%;
+font-family: 'Nanum Gothic', sans-serif;
+font-size: 8pt;
+top: 84%;
+left:3%;
+
+}
+
+
+/*image 2 */
+#bucket2{
+  position: fixed;
+  padding: 2.5%;
+  top:55%;
+left:55%;
+}
+.bucket2{
+position: fixed;
+padding: 2.5%;
+font-family: 'Nanum Gothic', sans-serif;
+font-size: 8pt;
+top: 81.5%;
+left:55%;
+}
+.bucket2_1{
+  position: fixed;
+  padding: 2.5%;
+font-family: 'Nanum Gothic', sans-serif;
+font-size: 8pt;
+top: 84%;
+left:55%;
+
+}
+
+.logo{
+  position: fixed;
+}
+.shopping{
+  position: fixed;
+  top:3.5%;
+  left:340px;
+    margin:auto;
+}
+#back{
+  position: fixed;
+  top:10%;
+
+}
+#bottom{
+  position: fixed;
+  bottom:1px;
+}
+#bag{
+  position: fixed;
+
+  bottom: 25px;
+  left:150px;
+  margin:auto;
+}
+#hat{
+  position: fixed;
+
+  bottom: 20px;
+  left:250px;
+}
+#aboutus{
+  position: fixed;
+
+  bottom: 25px;
+  left:340px;
+}
+#home{
+  position: fixed;
+  bottom: 25px;
+  left:47px;
+}
+.text{
+  padding: 2px;
+  margin:2px;
+  position: fixed;
+  bottom:.5px;
+  left:42px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 10pt;
+}
+.text1{
+  padding: 2px;
+  margin:2px;
+  position: fixed;
+  bottom:.5px;
+  left:150px;
+    font-family: 'Nanum Gothic', sans-serif;
+      font-size: 10pt;
+}
+
+.text2{
+  padding: 2px;
+  margin:2px;
+  position: fixed;
+  bottom:.5px;
+  left:250px;
+    font-family: 'Nanum Gothic', sans-serif;
+      font-size: 10pt;
+}
+.text3{
+  padding: 2px;
+  margin:2px;
+  position: fixed;
+  bottom:.5px;
+  left:325px;
+    font-family: 'Nanum Gothic', sans-serif;
+      font-size: 10pt;
+}
+}

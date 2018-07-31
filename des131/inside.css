@@ -1,0 +1,192 @@
+
+@media only screen and (max-width: 414px) {
+  .deviceWidth {width:280px!important; padding:0;}
+  .center {text-align: center!important;}
+
+  body{
+    margin:0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  #bucket3{
+    position: fixed;
+    padding: 5%;
+    top:17%;
+  left:1%;
+  }
+  #overlay {
+      position: fixed;
+      display: none;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.5);
+      z-index: 2;
+      cursor: pointer;
+  }
+
+  #text{
+      position: fixed;
+      top: 50%;
+      left: 3%;
+      font-size: 50px;
+      color: white;
+      transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+  }
+
+  /*  */
+  .bucket3{
+      position: fixed;
+      padding: 2%;
+  font-family: 'Nanum Gothic 700', sans-serif;
+  font-size: 12pt;
+  top: 70%;
+  left:5%;
+  }
+  .bucket3_1{
+    position: fixed;
+    padding: 2%;
+  font-family: 'Nanum Gothic700', sans-serif;
+  font-size: 12pt;
+  top: 65%;
+  left:5%;
+
+  }
+  #add{
+    position: fixed;
+    top:70%;
+    left:10%;
+    padding: 2%;
+  }
+  .add1{
+    position: fixed;
+    top:75%;
+    left:10%;
+    padding: 2%;
+
+  }
+  .add2{
+    position: fixed;
+    top:80%;
+    left:10%;
+    padding: 2%;
+
+  }
+  #icon{
+    position: fixed;
+    top:70%;
+    left:30%;
+    padding: 2%;
+    font-family: 'Nanum Gothic700', sans-serif;
+    font-size: 12pt;
+  }
+  .add_1{
+    position: fixed;
+    top:75%;
+    left:43%;
+    padding: 2%;
+    font-family: 'Nanum Gothic700', sans-serif;
+    font-size: 12pt;
+
+  }
+  .add_2{
+    position: fixed;
+    top:80%;
+    left:35%;
+    padding: 2%;
+    font-family: 'Nanum Gothic700', sans-serif;
+    font-size: 12pt;
+
+  }
+.title{
+  position: fixed;
+  top:8.5%;
+  left:8%;
+  padding: 3%;
+  font-family: 'Nanum Gothic 700', sans-serif;
+}
+.logo{
+  position: fixed;
+}
+.shopping{
+  position: fixed;
+  top:3.5%;
+  left:340px;
+    margin:auto;
+}
+#back{
+  position: fixed;
+  top:10%;
+
+}
+#bottom{
+  position: fixed;
+  bottom:1px;
+}
+#bag{
+  position: fixed;
+
+  bottom: 25px;
+  left:150px;
+  margin:auto;
+}
+#hat{
+  position: fixed;
+
+  bottom: 20px;
+  left:250px;
+}
+#aboutus{
+  position: fixed;
+
+  bottom: 25px;
+  left:340px;
+}
+#home{
+  position: fixed;
+  bottom: 25px;
+  left:47px;
+}
+.text{
+  padding: 2px;
+  margin:2px;
+  position: fixed;
+  bottom:.5px;
+  left:42px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 10pt;
+}
+.text1{
+  padding: 2px;
+  margin:2px;
+  position: fixed;
+  bottom:.5px;
+  left:150px;
+    font-family: 'Nanum Gothic', sans-serif;
+      font-size: 10pt;
+}
+
+.text2{
+  padding: 2px;
+  margin:2px;
+  position: fixed;
+  bottom:.5px;
+  left:250px;
+    font-family: 'Nanum Gothic', sans-serif;
+      font-size: 10pt;
+}
+.text3{
+  padding: 2px;
+  margin:2px;
+  position: fixed;
+  bottom:.5px;
+  left:325px;
+    font-family: 'Nanum Gothic', sans-serif;
+      font-size: 10pt;
+}
+}
