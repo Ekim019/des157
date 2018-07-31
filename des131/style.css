@@ -31,29 +31,29 @@
 #bag{
   position: fixed;
   bottom: 25px;
-  left:150px;
+  left:33%;
 }
 #hat{
   position: fixed;
   bottom: 20px;
-  left:250px;
+  left:57%;
 }
 #aboutus{
   position: fixed;
   bottom: 25px;
-  left:340px;
+  left:80%;
 }
 #home{
   position: fixed;
   bottom: 25px;
-  left:47px;
+  left:10%;
 }
 .text{
   padding: 2px;
   margin:2px;
   position: fixed;
   bottom:.5px;
-  left:42px;
+  left:8%;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 10pt;
 }
@@ -62,7 +62,7 @@
   margin:2px;
   position: fixed;
   bottom:.5px;
-  left:150px;
+  left:33%;
     font-family: 'Nanum Gothic', sans-serif;
       font-size: 10pt;
 }
@@ -72,7 +72,7 @@
   margin:2px;
   position: fixed;
   bottom:.5px;
-  left:250px;
+  left:57%;
     font-family: 'Nanum Gothic', sans-serif;
       font-size: 10pt;
 }
@@ -81,7 +81,7 @@
   margin:2px;
   position: fixed;
   bottom:.5px;
-  left:325px;
+  left:75%;
     font-family: 'Nanum Gothic', sans-serif;
       font-size: 10pt;
 }
