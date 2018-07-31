@@ -12,24 +12,20 @@
 /*image*/
 #bucket3{
   position: fixed;
-  padding: 5%;
   top:17%;
-left:1%;
+left:5%;
 }
 .bucket3{
-    position: fixed;
-    padding: 2%;
-font-family: 'Nanum Gothic', sans-serif;
-font-size: 8pt;
-top: 45%;
+position: absolute;
+font-family: 'Nanum Gothic 700', sans-serif;
+font-size: 9pt;
+top: 46%;
 left:5%;
 }
 .bucket3_1{
   position: fixed;
-
-  padding: 2%;
-font-family: 'Nanum Gothic', sans-serif;
-font-size: 8pt;
+font-family: 'Nanum Gothic 700', sans-serif;
+font-size: 9pt;
 top: 48%;
 left:5%;
 
@@ -37,23 +33,20 @@ left:5%;
 /*image 4 */
 #bucket4{
   position: fixed;
-  padding: 5%;
   top:17%;
-left:215px;
+left:54%;
 }
 .bucket4{
     position: fixed;
-    padding: 2%;
-font-family: 'Nanum Gothic', sans-serif;
-font-size: 8pt;
-top: 45%;
+font-family: 'Nanum Gothic 700', sans-serif;
+font-size: 9pt;
+top: 46%;
 left:55%;
 }
 .bucket4_1{
   position: fixed;
-  padding: 2%;
-font-family: 'Nanum Gothic', sans-serif;
-font-size: 8pt;
+font-family: 'Nanum Gothic 700', sans-serif;
+font-size: 9pt;
 top: 48%;
 left:55%;
 
@@ -62,25 +55,22 @@ left:55%;
 /*image 0 */
 #bucket0{
   position: fixed;
-  padding: 2.5%;
-  top:55%;
-left:3%;
+  top:53.2%;
+left:5%;
 }
 .bucket0{
 position: fixed;
-padding: 2.5%;
-font-family: 'Nanum Gothic', sans-serif;
-font-size: 8pt;
+font-family: 'Nanum Gothic 700', sans-serif;
+font-size: 9pt;
 top: 81.5%;
-left:3%;
+left:5%;
 }
 .bucket0_1{
   position: fixed;
-  padding: 2.5%;
-font-family: 'Nanum Gothic', sans-serif;
-font-size: 8pt;
+font-family: 'Nanum Gothic 700', sans-serif;
+font-size: 9pt;
 top: 84%;
-left:3%;
+left:5%;
 
 }
 
@@ -88,23 +78,20 @@ left:3%;
 /*image 2 */
 #bucket2{
   position: fixed;
-  padding: 2.5%;
-  top:55%;
+  top:53%;
 left:55%;
 }
 .bucket2{
 position: fixed;
-padding: 2.5%;
-font-family: 'Nanum Gothic', sans-serif;
-font-size: 8pt;
+font-family: 'Nanum Gothic 700', sans-serif;
+font-size: 9pt;
 top: 81.5%;
 left:55%;
 }
 .bucket2_1{
   position: fixed;
-  padding: 2.5%;
-font-family: 'Nanum Gothic', sans-serif;
-font-size: 8pt;
+font-family: 'Nanum Gothic 700', sans-serif;
+font-size: 9pt;
 top: 84%;
 left:55%;
 
