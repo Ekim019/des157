@@ -9,12 +9,7 @@
     background-color: white;
     font-family: 'Nanum Gothic', sans-serif;
   }
-  #bucket3{
-    position: fixed;
-    /* padding: 5%; */
-    top:17%;
-  left:1%;
-  }
+
   #overlay {
       position: fixed;
       display: none;
@@ -40,63 +35,60 @@
   }
 
   /*  */
+  #bucket3{
+    position: fixed;
+    top:19%;
+  left:18%;
+  }
   .bucket3{
       position: fixed;
-      /* padding: 2%; */
   font-family: 'Nanum Gothic 700', sans-serif;
-  font-size: 12pt;
-  top: 70%;
-  left:5%;
+  font-size: 13pt;
+  top: 61%;
+  left:18%;
   }
   .bucket3_1{
     position: fixed;
-    /* padding: 2%; */
-  font-family: 'Nanum Gothic700', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   font-size: 12pt;
   top: 65%;
-  left:5%;
+  left:18%;
 
   }
   #add{
     position: fixed;
     top:70%;
     left:10%;
-    /* padding: 2%; */
   }
   .add1{
     position: fixed;
     top:75%;
     left:10%;
-    /* padding: 2%; */
 
   }
   .add2{
     position: fixed;
     top:80%;
     left:10%;
-    padding: 2%;
-
   }
   #icon{
     position: fixed;
     top:70%;
-    left:30%;
-    padding: 2%;
+    left:32%;
     font-family: 'Nanum Gothic700', sans-serif;
     font-size: 12pt;
   }
   .add_1{
     position: fixed;
     top:75%;
-    left:43%;
-    padding: 2%;
+    left:45%;
     font-family: 'Nanum Gothic700', sans-serif;
     font-size: 12pt;
 
   }
   .add_2{
     position: fixed;
-    top:80%;
+    top:79%;
     left:35%;
     padding: 2%;
     font-family: 'Nanum Gothic700', sans-serif;
@@ -105,7 +97,7 @@
   }
 .title{
   position: fixed;
-  top:8.5%;
+  top:9%;
   left:8%;
   padding: 3%;
   font-family: 'Nanum Gothic 700', sans-serif;
@@ -127,9 +119,8 @@
     margin:auto;
 }
 #back{
-
   position: fixed;
-  top:10%;
+  top:11%;
 }
 
 #bottom{
@@ -139,7 +130,7 @@
 #bag{
   position: fixed;
   bottom: 25px;
-  left:30%;
+  left:33%;
 }
 #hat{
   position: fixed;
@@ -154,7 +145,7 @@
 #home{
   position: fixed;
   bottom: 25px;
-  left:8%;
+  left:10%;
 }
 .text{
   padding: 2px;
