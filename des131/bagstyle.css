@@ -112,52 +112,56 @@ left:55%;
 
 .logo{
   position: fixed;
+  width:100%;
+  padding: -2%;
+}
+.bar{
+  position: fixed;
+  width:100%;
+  padding: -2%;
 }
 .shopping{
   position: fixed;
   top:3.5%;
-  left:340px;
+  left:85%;
     margin:auto;
 }
 #back{
+
   position: fixed;
   top:10%;
-
 }
+
 #bottom{
   position: fixed;
   bottom:1px;
 }
 #bag{
   position: fixed;
-
   bottom: 25px;
-  left:150px;
-  margin:auto;
+  left:33%;
 }
 #hat{
   position: fixed;
-
   bottom: 20px;
-  left:250px;
+  left:57%;
 }
 #aboutus{
   position: fixed;
-
   bottom: 25px;
-  left:340px;
+  left:80%;
 }
 #home{
   position: fixed;
   bottom: 25px;
-  left:47px;
+  left:10%;
 }
 .text{
   padding: 2px;
   margin:2px;
   position: fixed;
   bottom:.5px;
-  left:42px;
+  left:8%;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 10pt;
 }
@@ -166,7 +170,7 @@ left:55%;
   margin:2px;
   position: fixed;
   bottom:.5px;
-  left:150px;
+  left:33%;
     font-family: 'Nanum Gothic', sans-serif;
       font-size: 10pt;
 }
@@ -176,7 +180,7 @@ left:55%;
   margin:2px;
   position: fixed;
   bottom:.5px;
-  left:250px;
+  left:57%;
     font-family: 'Nanum Gothic', sans-serif;
       font-size: 10pt;
 }
@@ -185,7 +189,7 @@ left:55%;
   margin:2px;
   position: fixed;
   bottom:.5px;
-  left:325px;
+  left:75%;
     font-family: 'Nanum Gothic', sans-serif;
       font-size: 10pt;
 }

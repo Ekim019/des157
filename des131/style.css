@@ -11,11 +11,18 @@
 
 .logo{
   position: fixed;
+  width:100%;
+  padding: -2%;
+}
+.bar{
+  position: fixed;
+  width:100%;
+  padding: -2%;
 }
 .shopping{
   position: fixed;
   top:3.5%;
-  left:340px;
+  left:85%;
     margin:auto;
 }
 #back{
