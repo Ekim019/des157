@@ -1,7 +1,7 @@
 
 @media only screen and (max-width: 414px) {
   .deviceWidth {width:280px!important; padding:0;}
-  /* .center {text-align: center!important;} */
+  .center {text-align: center!important;}
 
   body{
     margin:0;
@@ -9,102 +9,38 @@
     background-color: white;
     font-family: 'Nanum Gothic', sans-serif;
   }
-/*image*/
-#bucket3{
-position: fixed;
-width:40%;
-height:29%;
-  top:18%;
-left:5%;
-}
-.bucket3{
-position: fixed;
-font-family: 'Nanum Gothic 700', sans-serif;
-font-size: 8pt;
-top: 46%;
-left:5%;
-}
-.bucket3_1{
-position: fixed;
-font-family: 'Nanum Gothic 700', sans-serif;
-font-size: 8pt;
-top: 48%;
-left:5%;
-
-}
-/*image 4 */
-#bucket4{
-position: fixed;
-  top:18%;
-left:54%;
-width:40%;
-height:29%;
-}
-.bucket4{
-  position: fixed;
-font-family: 'Nanum Gothic 700', sans-serif;
-font-size: 8pt;
-top: 46%;
-left:55%;
-}
-.bucket4_1{
-  position: fixed;
-font-family: 'Nanum Gothic 700', sans-serif;
-font-size: 8pt;
-top: 48%;
-left:55%;
-
-}
-
-/*image 0 */
-#bucket0{
-  position: fixed;
-  top:54%;
-  width: 40%;
-  height:29%;
-left:5%;
-}
-.bucket0{
-position: fixed;
-font-family: 'Nanum Gothic 700', sans-serif;
-font-size: 8pt;
-top: 82%;
-left:5%;
-}
-.bucket0_1{
-position: fixed;
-font-family: 'Nanum Gothic 700', sans-serif;
-font-size: 8pt;
-top: 84.5%;
-left:5%;
-
-}
 
 
-/*image 2 */
-#bucket2{
-position: fixed;
-  top:54%;
-left:55%;
-width:40%;
-height:29%;
-}
-.bucket2{
-position: fixed;
-font-family: 'Nanum Gothic 700', sans-serif;
-font-size: 8pt;
-top: 82%;
-left:55%;
-}
-.bucket2_1{
-position: fixed;
-font-family: 'Nanum Gothic 700', sans-serif;
-font-size: 8pt;
-top: 84.5%;
-left:55%;
+  .cm{
+    position: fixed;
+    top:22%;
+    left:13%;
+    width:70%;
+    height: 20%;
 
-}
+  }
+  .us_1{
+    position: fixed;
+    top:61%;
+    left:13%;
+    width:33%;
+    height: 28%;
 
+  }
+  .mission{
+    position: fixed;
+    top:15%;
+    left:13%;
+    text-decoration: underline;
+
+  }
+  .us{
+    position: fixed;
+    top:55%;
+    left:13%;
+    text-decoration: underline;
+
+  }
 .logo{
 position: fixed;
   width:100%;
@@ -121,7 +57,7 @@ position: fixed;
   position: fixed;
   top:3.5%;
   left:85%;
-    margin:auto;
+
 }
 #back{
   position: fixed;

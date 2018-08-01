@@ -10,66 +10,43 @@
     font-family: 'Nanum Gothic', sans-serif;
   }
 
-  #overlay {
-      position: fixed;
-      display: none;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(0,0,0,0.5);
-      z-index: 2;
-      cursor: pointer;
-  }
-
-  #text{
-      position: fixed;
-      top: 50%;
-      left: 3%;
-      font-size: 50px;
-      color: white;
-      transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-  }
 
   /*  */
   #bucket3{
     position: fixed;
-    width:60%;
-    height:44%;
+    width:55%;
+    height:40%;
     top:19%;
   left:18%;
   }
   .bucket3{
       position: fixed;
   font-family: 'Nanum Gothic 700', sans-serif;
-  font-size: 13pt;
-  top: 61%;
+  font-size: 11pt;
+  top: 57%;
   left:18%;
   }
   .bucket3_1{
     position: fixed;
   font-family: 'Nanum Gothic', sans-serif;
-  font-size: 12pt;
-  top: 65%;
+  font-size: 9pt;
+  top: 60%;
   left:18%;
 
   }
   #add{
     position: fixed;
-    width:80%;
-    height: 6%;
-    top:70%;
-    left:10%;
+    width:70%;
+    height: 5%;
+    top:67%;
+    left:12%;
   }
   .add1{
     position: fixed;
-    width:80%;
-    height: 6%;
-    top:75.5%;
-    left:10%;
+    width:70%;
+    height: 5%;
+    top:73%;
+    left:12%;
 
   }
   .add2{
@@ -81,40 +58,59 @@
   }
   #icon{
     position: fixed;
-    top:70%;
-    left:35%;
+    top:66.5%;
+    left:29%;
     font-family: 'Nanum Gothic 700', sans-serif;
     font-size: 12pt;
   }
   .add_1{
     position: fixed;
-    top:75%;
-    left:45%;
+    top:72.5%;
+    left:43%;
     font-family: 'Nanum Gothic 700', sans-serif;
     font-size: 12pt;
 
   }
   .add_2{
     position: fixed;
+    border-top: 1px solid black;
+    width:70%;
     top:79%;
-    left:35%;
-    padding: 2%;
+    left:13%;
     font-family: 'Nanum Gothic700', sans-serif;
-    font-size: 12pt;
+    font-size: 10pt;
+
+  }
+  .add_3{
+    position: fixed;
+    top:82.5%;
+    left:13%;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 7pt;
+
+  }
+  .title1{
+    position: fixed;
+    top:11%;
+    width:100%;
+    height:6%;
+    left:0%;
 
   }
 .title{
   position: fixed;
-  top:9%;
+  top:11%;
   width:100%;
   height:6%;
-  left:8%;
-  padding: 3%;
+  left:10%;
   font-family: 'Nanum Gothic 700', sans-serif;
+  font-size: 12pt;
+
 }
 .logo{
 position: fixed;
   width:100%;
+  height: 10%;
   padding: -2%;
 }
 .bar{
@@ -127,7 +123,7 @@ position: fixed;
   position: fixed;
   top:3.5%;
   left:85%;
-    margin:auto;
+
 }
 #back{
   position: fixed;
@@ -137,30 +133,31 @@ position: fixed;
 #bottom{
   position: fixed;
   width: 100%;
+  height: 8%;
   bottom:1px;
 }
 #bag{
   position: fixed;
-  width: 9%;
+  width:8%;
   bottom: 3.5%;
   left:33%;
 }
 #hat{
   position: fixed;
-  width: 9%;
+  width: 8%;
     bottom: 3.5%;
   left:57%;
 }
 #aboutus{
   position: fixed;
-  width: 7%;
-  height:5%;
+  width: 6%;
+  height:4%;
   bottom: 3.5%;
   left:80%;
 }
 #home{
   position: fixed;
-  width: 9%;
+  width: 7%;
   bottom: 3.5%;
   left:10%;
 }

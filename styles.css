@@ -1,0 +1,142 @@
+/* all element to be work equal */
+
+/* Kim,Eunice-style.css (main-stylesheet)
+des157 */
+
+* {
+  box-sizing: border-box;
+  color: hsl(0, 100%, 100%);
+  /* max-width: 1366px;
+  max-height: 788px; */
+}
+
+body {
+  background-color: hsl(0, 0%, 1%);
+}
+
+div#container {
+  max-width: 1000px;
+  margin: auto;
+  height:100%;
+}
+
+/*beign with h1 section */
+
+h1 {
+  font-family: 'Atma';
+  font-size: 32px;
+  margin-top: 20px;
+  margin-left: 95px;
+  padding: 10px;
+}
+
+.logo {
+  float: right;
+  margin-bottom: 2px;
+  margin-right: 95px;
+}
+
+h3 {
+  font-family: 'Atma';
+  font-size: 25px;
+  margin-bottom: 13px;
+  margin-left: 95px;
+  padding: 10px;
+}
+
+/* banner(javascript) */
+
+#mySketch {
+  width: 800px;
+  margin: auto;
+}
+
+/*begin with the h2 with studio and project section of the page  */
+
+h2 {
+  font-family: 'Oleo Script Swash Caps';
+  font-size: 50px;
+  color: hsl(0, 100%, 100%);
+}
+
+#mainNav {
+
+}
+
+#column1 {
+  float: left;
+  padding: 80px;
+  margin-top: 50px;
+  border: 2px solid white;
+}
+
+#column2 {
+  float: right;
+  padding: 80px;
+  margin-top: 50px;
+  border: 2px solid white;
+}
+
+/*link for studio and project li */
+
+#col1 li, #col li {
+  color: white;
+  font-family: '2Atma';
+  font-size: 16px;
+  margin-top: 7px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+/* link for the "li a" the top that effect different color */
+
+a:link {
+  color: hsl(234, 87%, 92%);
+}
+
+a:visited {
+  color: hsl(347, 87%, 92%);
+}
+
+a:focus {
+  color: hsl(62, 87%, 92%);
+}
+
+a:hover {
+  color: hsl(172, 90%, 81%);
+}
+
+a:active {
+  color: hsl(342, 70%, 81%);
+}
+
+/*footer for icons:email,html,css,github */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  clear: both;
+  width:100%;
+  font-family: 'Atma';
+  padding-right: 35%;
+  text-align:center;
+}
+
+/* icon of image :html,css,github */
+
+.icon {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+footer li {
+  display: inline;
+  list-style: none;
+}
