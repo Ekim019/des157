@@ -39,12 +39,14 @@
     top:41%;
     left:13%;
       font-family: 'Nanum Gothic700', sans-serif;
-      font-size: 80%;
+      font-size: 70%;
+      right:10%;
   }
   .co{
     position: fixed;
     top:70%;
     left:50%;
+    right:5%;
       font-family: 'Nanum Gothic700', sans-serif;
       font-size: 70%;
   }
